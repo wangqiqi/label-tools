@@ -33,7 +33,7 @@
 | CVAT | [GitHub](https://github.com/cvat-ai/cvat) | 15.4k+ stars / 3.1k+ forks | MIT | Python, Django, React | CV, Video, Image | 业界领先的计算机视觉标注工具，支持图像和视频标注，提供自动标注、跟踪等高级功能，适合任何规模的团队 |
 | Labelme | [GitHub](https://github.com/wkentaro/labelme) | 15.6k+ stars / 3.6k+ forks | GPLv3 | Python, Qt | CV, Image | Python 图像多边形标注工具，支持多边形、矩形、圆形、线条、点和图像级标注，轻量级且易于使用 |
 | LabelImg | [GitHub](https://github.com/HumanSignal/labelImg) | 23k+ stars / 6.4k+ forks | MIT | Python, Qt | CV, Image | 经典的图像边界框标注工具，专注于目标检测任务，支持 PASCAL VOC 和 YOLO 格式（已归档，不再维护） |
-| Supervisely | [supervisely.com](https://supervisely.com) | 商业产品（部分开源） | 专有 | Python, Web | CV, Video, Image, Point Cloud | 端到端计算机视觉平台，支持图像、视频和点云标注，提供深度学习集成和协作功能 |
+| Supervisely | [官网](https://supervisely.com) | 商业产品（部分开源） | 专有 | Python, Web | CV, Video, Image, Point Cloud | 端到端计算机视觉平台，支持图像、视频和点云标注，提供深度学习集成和协作功能 |
 
 ## 计算机视觉（CV）专用工具
 
@@ -41,7 +41,7 @@
 |------|------|-------------|---------|---------|---------|------|
 | AnyLabeling | [GitHub](https://github.com/vietanhdev/anylabeling) | 3.2k+ stars / 400+ forks | GPLv3 | Python, Qt | CV, Image, Video | AI 辅助标注工具，集成 YOLO、SAM、SAM2 和 MobileSAM，支持自动标注和多种标注类型 |
 | X-AnyLabeling | [GitHub](https://github.com/CVHub520/X-AnyLabeling) | 8.2k+ stars / 900+ forks | GPLv3 | Python, Qt | CV, Image, OCR | 增强版 AnyLabeling，支持 Segment Anything 和多种 AI 模型，专注于工业级自动标注 |
-| makesense.ai | [makesense.ai](https://makesense.ai) | 3k+ stars | GPLv3 | TypeScript, React | CV, Image | 免费在线图像标注工具，无需安装，支持目标检测、图像分类和语义分割，适合快速原型开发 |
+| makesense.ai | [官网](https://makesense.ai) | 3k+ stars | GPLv3 | TypeScript, React | CV, Image | 免费在线图像标注工具，无需安装，支持目标检测、图像分类和语义分割，适合快速原型开发 |
 | COCO Annotator | [GitHub](https://github.com/jsbroks/coco-annotator) | 3k+ stars / 700+ forks | MIT | Python, Vue.js | CV, Image | Web 图像分割标注工具，专为目标检测、定位和关键点标注设计，输出 COCO 格式（不活跃维护） |
 | VGG Image Annotator (VIA) | [GitLab](https://gitlab.com/vgg/via) | 2.5k+ stars | BSD-2-Clause | JavaScript | CV, Image, Video | 轻量级的图像和视频标注工具，完全在浏览器中运行，支持多种标注类型 |
 | VoTT | [GitHub](https://github.com/microsoft/VoTT) | 4.5k+ stars / 1k+ forks | MIT | TypeScript, React, Electron | CV, Image, Video | 微软开源的视觉对象标注工具，Electron 应用，支持端到端目标检测模型构建（已归档） |
@@ -49,8 +49,8 @@
 | Yolo_mark | [GitHub](https://github.com/AlexeyAB/Yolo_mark) | 1.5k+ stars / 600+ forks | MIT | C++, OpenCV | CV, Image | YOLO 专用标注工具，GUI 界面，用于标注边界框训练 Darknet YOLO 模型（不活跃维护） |
 | ImgLab | [GitHub](https://github.com/NaturalIntelligence/imglab) | 1k+ stars / 200+ forks | MIT | JavaScript, Vue.js | CV, Image | Web 图像标注工具，支持多种格式（不活跃维护） |
 | JS Segment Annotator | [GitHub](https://github.com/kyamagu/js-segment-annotator) | 521+ stars / 159+ forks | BSD-3-Clause | JavaScript | CV, Image | 基于图像分割的 JavaScript 标注工具，纯前端实现（已归档） |
-| RectLabel | [rectlabel.com](https://rectlabel.com) | 商业产品 | 专有 | Swift, macOS | CV, Image | macOS 专用离线图像标注工具，支持边界框、多边形、关键点等，输出 COCO/YOLO/VOC 格式 |
-| Roboflow Annotate | [roboflow.com/annotate](https://roboflow.com/annotate) | 商业产品（部分开源） | 专有 | Web, AI | CV, Image, Video | AI 辅助标注工具，支持自动标注和主动学习，可利用 50,000+ 公开模型加速标注过程 |
+| RectLabel | [官网](https://rectlabel.com) | 商业产品 | 专有 | Swift, macOS | CV, Image | macOS 专用离线图像标注工具，支持边界框、多边形、关键点等，输出 COCO/YOLO/VOC 格式 |
+| Roboflow Annotate | [官网](https://roboflow.com/annotate) | 商业产品（部分开源） | 专有 | Web, AI | CV, Image, Video | AI 辅助标注工具，支持自动标注和主动学习，可利用 50,000+ 公开模型加速标注过程 |
 
 ## 自然语言处理（NLP）专用工具
 
@@ -61,8 +61,8 @@
 | Argilla | [GitHub](https://github.com/argilla-io/argilla) | 4.9k+ stars / 450+ forks | Apache-2.0 | Python, FastAPI, Vue.js | NLP, Text, LLM, RLHF | 面向 LLM 和 NLP 的协作标注平台，支持 RLHF 数据标注、数据质量监控和模型评估 |
 | WebAnno | [GitHub](https://github.com/webanno/webanno) | 800+ stars / 200+ forks | Apache-2.0 | Java, Spring | NLP, Text | 通用 Web 文本标注工具，支持多种语言学标注（不活跃维护，已迁移到 INCEpTION） |
 | ActiveTigger | [GitHub](https://github.com/emilienschultz/activetigger) | 31+ stars | 开源 | Python, BERT | NLP, Text | 为计算社会科学研究设计的轻量级文本标注工具，集成微调模型和主动学习，支持 LLM 即服务进行提示式标注 |
-| tagtog | [tagtog 文档](https://docs.tagtog.com) | 商业产品 | 专有 | Web | NLP, Text, NER | Web 文本标注工具，专注于语义标注和 NER，支持协作和自动标注（官网访问受限） |
-| Prodigy | [prodi.gy](https://prodi.gy) | 商业产品 | 专有 | Python | NLP, Text, Image | 由 spaCy 团队开发的高效标注工具，支持主动学习，可与 Python 工作流深度集成，适合快速迭代 |
+| tagtog | [文档](https://docs.tagtog.com) | 商业产品 | 专有 | Web | NLP, Text, NER | Web 文本标注工具，专注于语义标注和 NER，支持协作和自动标注（官网访问受限） |
+| Prodigy | [官网](https://prodi.gy) | 商业产品 | 专有 | Python | NLP, Text, Image | 由 spaCy 团队开发的高效标注工具，支持主动学习，可与 Python 工作流深度集成，适合快速迭代 |
 | Argilla | [GitHub](https://github.com/argilla-io/argilla) | 3.5k+ stars / 350+ forks | Apache-2.0 | Python, FastAPI, Vue.js | NLP, Text, LLM | 面向 LLM 和 NLP 的协作标注平台，支持数据质量监控和模型评估 |
 | LabelLLM | [GitHub](https://github.com/opendatalab/LabelLLM) | 1k+ stars / 100+ forks | Apache-2.0 | Python, Vue.js | NLP, Text, LLM | 专为大语言模型设计的开源标注平台，支持对话、指令等多种 LLM 数据标注 |
 
@@ -75,7 +75,7 @@
 | Scalabel | [GitHub](https://github.com/scalabel/scalabel) | 543+ stars / 112+ forks | Apache-2.0 | TypeScript, React | CV, 2D, 3D | 多功能 Web 标注工具，支持 2D 和 3D 数据标注，BDD100K 数据集使用此工具标注 |
 | 3D Annotation Tool | [GitHub](https://github.com/strayrobots/3d-annotation-tool) | 300+ stars / 60+ forks | MIT | Python, Three.js | Point Cloud, 3D | 图形化 3D 点云和数据标注工具，支持多种 3D 数据格式 |
 | Supervisely Point Cloud | [GitHub](https://github.com/supervisely-ecosystem/pointcloud-labeling-tool) | 200+ stars / 40+ forks | MIT | Python, Web | Point Cloud, 3D, Video | 支持激光雷达/雷达传感器的综合 3D 场景标注，带 AI 目标跟踪和点云分割功能 |
-| Kognic Platform | [kognic.com](https://www.kognic.com) | 商业产品 | 专有 | Web, AI | Point Cloud, 3D, Semantic Segmentation | 专注于自动驾驶和机器人的企业级平台，支持 3D 语义/实例分割质量分析和程序化检查（2026年1月更新） |
+| Kognic Platform | [官网](https://www.kognic.com) | 商业产品 | 专有 | Web, AI | Point Cloud, 3D, Semantic Segmentation | 专注于自动驾驶和机器人的企业级平台，支持 3D 语义/实例分割质量分析和程序化检查（2026年1月更新） |
 
 ## 服务端/自托管平台
 
@@ -98,41 +98,41 @@
 | Pigeon | [GitHub](https://github.com/agermanidis/pigeon) | 700+ stars / 100+ forks | Apache-2.0 | Python, Jupyter | Jupyter, Text, Image | Jupyter Notebook 标注小部件，快速标注数据集，支持文本、图像和回归任务 |
 | Universal Data Tool | [GitHub](https://github.com/UniversalDataTool/universal-data-tool) | 2k+ stars / 200+ forks | MIT | JavaScript, React | CV, NLP, Text, Image | 通用数据标注工具，支持多种数据类型，提供 Web 界面和桌面应用，易于协作 |
 | Pigeon | [GitHub](https://github.com/agermanidis/pigeon) | 700+ stars / 100+ forks | Apache-2.0 | Python, Jupyter | Jupyter, Text, Image | Jupyter Notebook 标注小部件，快速标注数据集，支持文本、图像和回归任务，100% 本地运行 |
-| ipyannotations | [pypi.org/project/ipyannotations](https://pypi.org/project/ipyannotations) | 200+ stars / 30+ forks | MIT | Python, Jupyter | Jupyter, Image | Jupyter 富标注库，专为图像数据设计，提供交互式标注界面 |
+| ipyannotations | [PyPI](https://pypi.org/project/ipyannotations) | 200+ stars / 30+ forks | MIT | Python, Jupyter | Jupyter, Image | Jupyter 富标注库，专为图像数据设计，提供交互式标注界面 |
 
 ## 商业平台（支持自托管）
 
 | 名称 | 地址 | 部署方式 | 价格模式 | 技术栈 | 支持类型 | 说明 |
 |------|------|---------|---------|---------|---------|------|
-| V7 Darwin | [v7labs.com](https://www.v7labs.com) | SaaS + 私有化 | 按用户席位 + 企业定制 | Web, AI | CV, Video, Image, Medical | 企业级视觉 AI 平台，支持 SAM 3 自动分割，提供视频标注和医学影像（DICOM）标注，适合生产环境 |
-| Encord | [encord.com](https://encord.com) | SaaS + VPC + 私有化 | 按标注量 + 企业定制 | Web, AI | CV, NLP, Multi-modal, 3D, LiDAR | AI 辅助数据标注平台，支持图像、视频、音频、文档、3D 和 LiDAR 数据，提供 HITL 工作流 |
-| SuperAnnotate | [superannotate.com](https://www.superannotate.com) | SaaS + 私有化 | 按用户席位 + 标注量 | Web, AI | CV, NLP, Multi-modal | 端到端数据标注平台，支持主动学习和数据管理，提供质量控制和团队协作功能 |
-| Scale AI | [scale.com](https://scale.com) | SaaS + 托管服务 | 按标注量 + 服务费 | Web, AI | CV, NLP, Multi-modal | 领先的 AI 数据平台，提供高质量标注服务和工具，支持大规模数据处理 |
+| V7 Darwin | [官网](https://www.v7labs.com) | SaaS + 私有化 | 按用户席位 + 企业定制 | Web, AI | CV, Video, Image, Medical | 企业级视觉 AI 平台，支持 SAM 3 自动分割，提供视频标注和医学影像（DICOM）标注，适合生产环境 |
+| Encord | [官网](https://encord.com) | SaaS + VPC + 私有化 | 按标注量 + 企业定制 | Web, AI | CV, NLP, Multi-modal, 3D, LiDAR | AI 辅助数据标注平台，支持图像、视频、音频、文档、3D 和 LiDAR 数据，提供 HITL 工作流 |
+| SuperAnnotate | [官网](https://www.superannotate.com) | SaaS + 私有化 | 按用户席位 + 标注量 | Web, AI | CV, NLP, Multi-modal | 端到端数据标注平台，支持主动学习和数据管理，提供质量控制和团队协作功能 |
+| Scale AI | [官网](https://scale.com) | SaaS + 托管服务 | 按标注量 + 服务费 | Web, AI | CV, NLP, Multi-modal | 领先的 AI 数据平台，提供高质量标注服务和工具，支持大规模数据处理 |
 | Segments.ai | [文档](https://docs.segments.ai) | SaaS | 免费 + 按用户席位 | Web | CV, 2D, 3D, Point Cloud | 多传感器数据标注平台，支持 2D 图像和 3D 点云同步标注，适合机器人和自动驾驶（YC W21） |
-| Labellerr | [labellerr.com](https://www.labellerr.com) | SaaS + 私有化 | 按标注量 + 企业定制 | Web, AI | CV, NLP, Video | 数据标注平台，支持自托管，提供 AI 辅助标注，声称可减少 80% 标注时间 |
-| VisionRepo | [averroes.ai](https://averroes.ai) | SaaS | 按项目定价 | Web | CV, Image, Video | 数据标注和视觉数据管理平台，支持 AI 辅助工作流和数据版本控制 |
-| Playment | [YC 公司页面](https://www.ycombinator.com/companies/playment) | 托管服务 | 按标注量 | Web | CV, Image, Video, Sensor | 全托管数据标注平台，专注于自动驾驶、无人机和地图等领域（2021年被 TELUS International 收购） |
-| Hive Data | [thehive.ai](https://thehive.ai) | SaaS + API | 按 API 调用 + 服务费 | Web, AI | CV, NLP, Multi-modal | AI 数据标注和内容审核平台，支持图像、视频和文本标注 |
-| Kili Technology | [kili-technology.com](https://kili-technology.com) | SaaS + 私有化 + VPC | 按用户席位 + 企业定制 | Web, AI | CV, NLP, Video, Geospatial | 企业级标注平台，支持本地部署，提供多模态标注、质量控制和协作功能。2026年1月更新：增强批量标注管理（提速60%）和节点编辑器 |
-| Hasty (CloudFactory) | [cloudfactory.com/hasty](https://www.cloudfactory.com/platform/ai-cv-tool) | SaaS | 按用户席位 | Web, AI | CV, Image, Video | AI 驱动的视觉标注工具，可自动化 90% 的质量控制任务，随使用越来越快 |
-| Dataloop | [dataloop.ai](https://dataloop.ai) | SaaS + 私有化 | 按用户席位 + MLOps 功能 | Web, AI | CV, NLP, Multi-modal | 端到端数据管理和标注平台，支持自托管，提供 MLOps 集成 |
-| Labelbox | [labelbox.com](https://labelbox.com) | SaaS + 私有化 + VPC | 按用户席位 + 企业定制 | Web, AI | CV, NLP, Multi-modal | 领先的训练数据平台，支持企业级部署，提供完整的数据管理和标注解决方案 |
-| Dataturks | [GitHub 归档](https://github.com/DataTurks) | 已停止维护 | 曾免费开源 | Java, Web | CV, NLP, Text, Image | 人机协作标注平台，支持图像、视频和文本标注（项目已归档，网站已下线） |
+| Labellerr | [官网](https://www.labellerr.com) | SaaS + 私有化 | 按标注量 + 企业定制 | Web, AI | CV, NLP, Video | 数据标注平台，支持自托管，提供 AI 辅助标注，声称可减少 80% 标注时间 |
+| VisionRepo | [官网](https://averroes.ai) | SaaS | 按项目定价 | Web | CV, Image, Video | 数据标注和视觉数据管理平台，支持 AI 辅助工作流和数据版本控制 |
+| Playment | [YC](https://www.ycombinator.com/companies/playment) | 托管服务 | 按标注量 | Web | CV, Image, Video, Sensor | 全托管数据标注平台，专注于自动驾驶、无人机和地图等领域（2021年被 TELUS International 收购） |
+| Hive Data | [官网](https://thehive.ai) | SaaS + API | 按 API 调用 + 服务费 | Web, AI | CV, NLP, Multi-modal | AI 数据标注和内容审核平台，支持图像、视频和文本标注 |
+| Kili Technology | [官网](https://kili-technology.com) | SaaS + 私有化 + VPC | 按用户席位 + 企业定制 | Web, AI | CV, NLP, Video, Geospatial | 企业级标注平台，支持本地部署，提供多模态标注、质量控制和协作功能。2026年1月更新：增强批量标注管理（提速60%）和节点编辑器 |
+| Hasty (CloudFactory) | [官网](https://www.cloudfactory.com/platform/ai-cv-tool) | SaaS | 按用户席位 | Web, AI | CV, Image, Video | AI 驱动的视觉标注工具，可自动化 90% 的质量控制任务，随使用越来越快 |
+| Dataloop | [官网](https://dataloop.ai) | SaaS + 私有化 | 按用户席位 + MLOps 功能 | Web, AI | CV, NLP, Multi-modal | 端到端数据管理和标注平台，支持自托管，提供 MLOps 集成 |
+| Labelbox | [官网](https://labelbox.com) | SaaS + 私有化 + VPC | 按用户席位 + 企业定制 | Web, AI | CV, NLP, Multi-modal | 领先的训练数据平台，支持企业级部署，提供完整的数据管理和标注解决方案 |
+| Dataturks | [GitHub](https://github.com/DataTurks) | 已停止维护 | 曾免费开源 | Java, Web | CV, NLP, Text, Image | 人机协作标注平台，支持图像、视频和文本标注（项目已归档，网站已下线） |
 
 ## 医学影像专用工具
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| NimbusImage | [nimbusimage.com](https://docs.nimbusimage.com/new-features) | 商业产品 | 专有 | Web, AI | Medical Imaging, Biology | 面向科研的生物影像标注和分析平台，支持圆形/椭圆标注、合并多边形、SAM1/SAM2 辅助分割（2026年2月更新） |
-| Cytomine | [cytomine.org](https://cytomine.org) | 开源项目 | Apache-2.0 | Java, Groovy, JavaScript | Pathology, Whole-slide | 开源的大规模病理学图像协作标注平台，集成 AI 辅助细胞/区域标注和基于内容的图像检索（CBIR），适合数字病理学 |
-| 3D Slicer | [slicer.org](https://www.slicer.org) | 开源软件 | BSD | C++, Python, Qt | Medical Segmentation, DICOM, 3D | 专业医学影像分析平台，支持 DICOM/NIfTI，提供分割、配准、可视化等功能，广泛用于医学研究和临床应用 |
+| NimbusImage | [官网](https://docs.nimbusimage.com/new-features) | 商业产品 | 专有 | Web, AI | Medical Imaging, Biology | 面向科研的生物影像标注和分析平台，支持圆形/椭圆标注、合并多边形、SAM1/SAM2 辅助分割（2026年2月更新） |
+| Cytomine | [官网](https://cytomine.org) | 开源项目 | Apache-2.0 | Java, Groovy, JavaScript | Pathology, Whole-slide | 开源的大规模病理学图像协作标注平台，集成 AI 辅助细胞/区域标注和基于内容的图像检索（CBIR），适合数字病理学 |
+| 3D Slicer | [官网](https://www.slicer.org) | 开源软件 | BSD | C++, Python, Qt | Medical Segmentation, DICOM, 3D | 专业医学影像分析平台，支持 DICOM/NIfTI，提供分割、配准、可视化等功能，广泛用于医学研究和临床应用 |
 
 ## 多模态标注平台
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| AutoDive+ | [arXiv](https://arxiv.org/abs/2310.12024) | 学术研究 | 研究项目 | Python, AI | Multi-modal, PDF | 增强版多模态在线标注工具，支持 PDF 文档直接标注，通过主动学习提高效率，适合材料科学、生物合成等领域 |
-| Appen 多模态工具 | [appen.com](https://tw.appendata.com/blogs/multimodal-labeling-tool) | 商业产品 | 专有 | Web, AI | Multi-modal, Semantic | 专业多模态标注平台，支持语义层级的跨模态关联（如将文字描述关联到影像区域），适合医疗 AI、智能客服等场景 |
+| AutoDive+ | [论文](https://arxiv.org/abs/2310.12024) | 学术研究 | 研究项目 | Python, AI | Multi-modal, PDF | 增强版多模态在线标注工具，支持 PDF 文档直接标注，通过主动学习提高效率，适合材料科学、生物合成等领域 |
+| Appen 多模态工具 | [官网](https://tw.appendata.com/blogs/multimodal-labeling-tool) | 商业产品 | 专有 | Web, AI | Multi-modal, Semantic | 专业多模态标注平台，支持语义层级的跨模态关联（如将文字描述关联到影像区域），适合医疗 AI、智能客服等场景 |
 
 ## 音频/语音专用工具
 
@@ -141,7 +141,7 @@
 | Audino | [GitHub](https://github.com/midas-research/audino) | 600+ stars / 80+ forks | MIT | Python, React | Audio, Speech | 开源语音和音频标注工具，支持 ASR 数据标注、说话人识别、音频分类等，提供 Web 界面和协作功能 |
 | Montreal Forced Aligner | [GitHub](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) | 1.1k+ stars / 200+ forks | MIT | Python | Audio, Speech | 强制对齐工具，用于将语音与文本对齐，生成音素级标注，广泛用于语音数据集准备 |
 | ELAN | [GitHub](https://github.com/liepa-project/elan) | 专业软件 | GPL-3.0 | Java | Audio, Video | 专业语言标注工具，支持多层标注，适用于语音、手语、对话等复杂标注，输出多种格式 |
-| Praat | [praat.org](https://www.fon.hum.uva.nl/praat/) | 专业软件 | GPL | C++ | Audio, Speech | 语音学分析软件，可用于手工标注音段、音高、共振峰等，功能强大，学术界广泛使用 |
+| Praat | [官网](https://www.fon.hum.uva.nl/praat/) | 专业软件 | GPL | C++ | Audio, Speech | 语音学分析软件，可用于手工标注音段、音高、共振峰等，功能强大，学术界广泛使用 |
 
 ## 遥感与地理信息专用工具
 
@@ -149,8 +149,8 @@
 |------|------|-------------|---------|---------|---------|------|
 | RoboSat | [GitHub](https://github.com/mapbox/robosat) | 2k+ stars / 400+ forks | MIT | Python, PyTorch | Remote Sensing, Image | 遥感图像语义分割工具，包含数据准备、训练和评估，支持从 OpenStreetMap 生成标注 |
 | label-maker | [GitHub](https://github.com/developmentseed/label-maker) | 400+ stars / 80+ forks | MIT | Python | Remote Sensing, Image | 从卫星图像和 OpenStreetMap 数据生成训练标签，用于深度学习模型 |
-| geojson.io | [geojson.io](https://geojson.io) | 开源项目 | MIT | JavaScript | Geospatial | 在线 GeoJSON 编辑器，可手工标注地理特征（点、线、面），导出标准 GeoJSON 格式 |
-| QGIS | [qgis.org](https://qgis.org) | 开源软件 | GPL | C++, Python | Geospatial, Image | 专业 GIS 软件，支持通过插件或内置工具进行地理数据标注，适合复杂地理标注任务 |
+| geojson.io | [官网](https://geojson.io) | 开源项目 | MIT | JavaScript | Geospatial | 在线 GeoJSON 编辑器，可手工标注地理特征（点、线、面），导出标准 GeoJSON 格式 |
+| QGIS | [官网](https://qgis.org) | 开源软件 | GPL | C++, Python | Geospatial, Image | 专业 GIS 软件，支持通过插件或内置工具进行地理数据标注，适合复杂地理标注任务 |
 
 ## 工业检测专用工具
 
@@ -165,16 +165,16 @@
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| Gephi | [gephi.org](https://gephi.org) | 开源软件 | GPL | Java | Graph | 开源网络分析和可视化软件，可手工标注节点属性、社区划分，支持多种图格式 |
-| Cytoscape | [cytoscape.org](https://cytoscape.org) | 开源软件 | LGPL | Java | Graph, Biological | 主要用于生物网络可视化与标注，支持节点和边的属性标注，适合分子相互作用网络等 |
-| yEd Graph Editor | [yworks.com/yed](https://www.yworks.com/products/yed) | 免费软件 | 专有 | Java | Graph | 专业图形编辑器，支持节点和边的属性标注，可导出多种格式，适合图结构数据可视化和标注 |
+| Gephi | [官网](https://gephi.org) | 开源软件 | GPL | Java | Graph | 开源网络分析和可视化软件，可手工标注节点属性、社区划分，支持多种图格式 |
+| Cytoscape | [官网](https://cytoscape.org) | 开源软件 | LGPL | Java | Graph, Biological | 主要用于生物网络可视化与标注，支持节点和边的属性标注，适合分子相互作用网络等 |
+| yEd Graph Editor | [官网](https://www.yworks.com/products/yed) | 免费软件 | 专有 | Java | Graph | 专业图形编辑器，支持节点和边的属性标注，可导出多种格式，适合图结构数据可视化和标注 |
 
 ## 表格数据处理专用工具
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
 | OpenRefine | [GitHub](https://github.com/OpenRefine/OpenRefine) | 9k+ stars / 1.5k+ forks | BSD-3-Clause | Java | Tabular Data | 数据清洗和转换工具，可手工标注数据质量问题、分类等，适用于表格数据预处理 |
-| Pandas + Jupyter | [pandas.pydata.org](https://pandas.pydata.org) | 开源库 | BSD | Python | Tabular Data | 通过编写脚本可进行表格数据标注，配合 Jupyter 小部件（如 Pigeon）可快速标注 |
+| Pandas + Jupyter | [官网](https://pandas.pydata.org) | 开源库 | BSD | Python | Tabular Data | 通过编写脚本可进行表格数据标注，配合 Jupyter 小部件（如 Pigeon）可快速标注 |
 | Label Studio (表格模板) | 详见[综合类](#综合类标注工具) | - | Apache-2.0 | - | Tabular Data | 支持 CSV/Excel 数据标注，可添加标签列，适用于分类、回归等任务 |
 
 ## 代码与程序分析专用工具
