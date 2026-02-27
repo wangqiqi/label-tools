@@ -14,8 +14,11 @@
 - [医学影像专用工具](#医学影像专用工具)
 - [多模态标注平台](#多模态标注平台)
 - [音频/语音专用工具](#音频语音专用工具)
-- [遥感与工业检测工具](#遥感与工业检测工具)
-- [其他垂直领域工具](#其他垂直领域工具)
+- [遥感与地理信息专用工具](#遥感与地理信息专用工具)
+- [工业检测专用工具](#工业检测专用工具)
+- [图结构与知识图谱专用工具](#图结构与知识图谱专用工具)
+- [表格数据处理专用工具](#表格数据处理专用工具)
+- [代码与程序分析专用工具](#代码与程序分析专用工具)
 - [其他专用工具](#其他专用工具)
 - [工具选择建议](#工具选择建议)
 - [行业趋势与展望](#行业趋势与展望)
@@ -135,25 +138,53 @@
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| Audino | [github.com/audino-ai/audino](https://github.com/audino-ai/audino) | 1.4k+ stars / 190+ forks | MIT | WebAssembly, Rust, React | Audio, Speech, Diarization | 波形+语谱图双视图，支持 VAD（语音活动检测）、说话人分离、ASR 时间戳校正，100% 离线运行，内置 Whisper-small 模型预转录（2026-02-17 v0.6.0） |
-| SonicAnnotator | [github.com/sonic-visualiser/sonic-annotator](https://github.com/sonic-visualiser/sonic-annotator) | 820+ stars / 130+ forks | GPLv3 | C++, Vamp SDK | Audio, MIR, Bioacoustics | 声学特征驱动标注，支持 MFCC/Chroma/Spectral Flux 可视化与插件分析，学术界音乐信息检索（MIR）标准工具（2026-01-29 v4.3） |
-| WhisperLabel | [github.com/zhongzhh/whisperlabel](https://github.com/zhongzhh/whisperlabel) | 950+ stars / 110+ forks | Apache-2.0 | Python, Whisper | Audio, ASR, Transcription | Whisper 原生集成，一键转录→编辑→时间戳同步，支持多语言模型切换（tiny/base/small），轻量 Python CLI + Web UI 双模式（2026-02-10 v1.2.1） |
+| Audino | [github.com/midas-research/audino](https://github.com/midas-research/audino) | 600+ stars / 80+ forks | MIT | Python, React | Audio, Speech | 开源语音和音频标注工具，支持 ASR 数据标注、说话人识别、音频分类等，提供 Web 界面和协作功能 |
+| Montreal Forced Aligner | [github.com/MontrealCorpusTools/Montreal-Forced-Aligner](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) | 1.1k+ stars / 200+ forks | MIT | Python | Audio, Speech | 强制对齐工具，用于将语音与文本对齐，生成音素级标注，广泛用于语音数据集准备 |
+| ELAN | [archive.mpi.nl/tla/elan](https://archive.mpi.nl/tla/elan) | 专业软件 | GPL-3.0 | Java | Audio, Video | 专业语言标注工具，支持多层标注，适用于语音、手语、对话等复杂标注，输出多种格式 |
+| Praat | [praat.org](https://www.fon.hum.uva.nl/praat/) | 专业软件 | GPL | C++ | Audio, Speech | 语音学分析软件，可用于手工标注音段、音高、共振峰等，功能强大，学术界广泛使用 |
+| TranscriberAG | [github.com/transcriber-ag/transcriber-ag](https://github.com/transcriber-ag/transcriber-ag) | 200+ stars / 50+ forks | GPL | Python, Tcl/Tk | Audio, Speech | 语音转写标注工具，支持分段、说话人标注，适用于语音识别数据准备 |
 
-## 遥感与工业检测工具
-
-| 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
-|------|------|-------------|---------|---------|---------|------|
-| SatFlow Annotator | [github.com/ClimateImpactLab/satflow-annotator](https://github.com/ClimateImpactLab/satflow-annotator) | 680+ stars / 95+ forks | Apache-2.0 | Python, GDAL, PyProj | Remote Sensing, GeoTIFF, Multi-spectral | 多光谱遥感标注，支持 NDVI/NDWI 指数计算、云掩膜擦除、STAC 元数据导出，适配 Sentinel-2/Landsat-9 实时数据流（2026-01-31 v0.4.0） |
-| DefectScope | [github.com/industrial-vision/defectscope](https://github.com/industrial-vision/defectscope) | 520+ stars / 80+ forks | MIT | Python, Qt, OpenCV | Industrial Inspection, Ultra-HD | 工业缺陷标注，支持 >100MP 超高分辨率图像、亚像素级边缘标注、AOI 快速定位，专为半导体/面板制造设计（2026-02-08 v1.3.2） |
-| GeoLabeler | [github.com/OSGeo/geo-labeler](https://github.com/OSGeo/geo-labeler) | 410+ stars / 65+ forks | BSD-2-Clause | Python, GDAL, MapLibre | GIS, Vector, Satellite | 地理空间矢量标注，支持 Shapefile/GeoJSON/KML、拓扑校验（无缝隙/无重叠）、离线地图瓦片，OSGeo 官方孵化项目（2026-02-03 v2.1.0） |
-
-## 其他垂直领域工具
+## 遥感与地理信息专用工具
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| GraphAnno | [github.com/graph-ml/graphanno](https://github.com/graph-ml/graphanno) | 开源项目 | MIT | Python, NetworkX, PyG | Graph Structure, GNN | NetworkX/PyG 图数据标注，支持节点属性、边关系、子图划分与 GNN 可视化调试，导出 PyG Data 对象（2026-01-25 v0.2.0） |
-| TabularLabel | [github.com/tabular-data/tabularlabel](https://github.com/tabular-data/tabularlabel) | 开源项目 | Apache-2.0 | Python, Pandas | Tabular Data, CSV | CSV/Excel 表格标注，支持千万行内存映射（mmap）、行级/列级标签、异常值标记、schema 推断（2026-02-12 v0.5.1） |
-| CodeAnnotator | [github.com/microsoft/code-annotator](https://github.com/microsoft/code-annotator) | 开源项目 | MIT | Python, TypeScript, CodeBERT | Code, Vulnerability | Python/JS/Java 代码标注，支持函数级意图标签、漏洞模式标记（CWE）、Jupyter Notebook 单元格级标注，集成 CodeBERT 语义理解（2026-01-20 v0.3.0） |
+| RoboSat | [github.com/mapbox/robosat](https://github.com/mapbox/robosat) | 2k+ stars / 400+ forks | MIT | Python, PyTorch | Remote Sensing, Image | 遥感图像语义分割工具，包含数据准备、训练和评估，支持从 OpenStreetMap 生成标注 |
+| label-maker | [github.com/developmentseed/label-maker](https://github.com/developmentseed/label-maker) | 400+ stars / 80+ forks | MIT | Python | Remote Sensing, Image | 从卫星图像和 OpenStreetMap 数据生成训练标签，用于深度学习模型 |
+| geojson.io | [geojson.io](https://geojson.io) | 开源项目 | MIT | JavaScript | Geospatial | 在线 GeoJSON 编辑器，可手工标注地理特征（点、线、面），导出标准 GeoJSON 格式 |
+| QGIS | [qgis.org](https://qgis.org) | 开源软件 | GPL | C++, Python | Geospatial, Image | 专业 GIS 软件，支持通过插件或内置工具进行地理数据标注，适合复杂地理标注任务 |
+
+## 工业检测专用工具
+
+工业检测领域的标注通常复用通用计算机视觉工具。以下工具因其对缺陷标注、工业图像格式、AI 辅助分割的良好支持，在工业界广泛应用：
+
+- **AnyLabeling / X-AnyLabeling**：集成 YOLO、Segment Anything 等模型，支持工业级自动标注，可大幅提升缺陷标注效率（详见[计算机视觉专用工具](#计算机视觉cv专用工具)）
+- **CVAT**：支持工业图像和视频的语义分割、目标检测标注，并提供自动标注算法，适合大规模工业数据集（详见[综合类标注工具](#综合类标注工具)）
+- **Roboflow Annotate**：提供针对工业检测的标注模板和主动学习功能，可利用公开模型加速标注（详见[计算机视觉专用工具](#计算机视觉cv专用工具)）
+- **V7 Darwin**：企业级平台，支持 SAM 自动分割和 DICOM 等医学影像格式，也适用于精密的工业 CT/无损检测标注（详见[商业平台](#商业平台支持自托管)）
+
+## 图结构与知识图谱专用工具
+
+| 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
+|------|------|-------------|---------|---------|---------|------|
+| Gephi | [gephi.org](https://gephi.org) | 开源软件 | GPL | Java | Graph | 开源网络分析和可视化软件，可手工标注节点属性、社区划分，支持多种图格式 |
+| Cytoscape | [cytoscape.org](https://cytoscape.org) | 开源软件 | LGPL | Java | Graph, Biological | 主要用于生物网络可视化与标注，支持节点和边的属性标注，适合分子相互作用网络等 |
+| graph-annotation-tool | [github.com/jackon/graph-annotation-tool](https://github.com/jackon/graph-annotation-tool) | 200+ stars / 40+ forks | MIT | Python, JavaScript | Graph | 基于 Web 的图标注工具，支持节点分类、边关系标注，输出标准图格式 |
+
+## 表格数据处理专用工具
+
+| 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
+|------|------|-------------|---------|---------|---------|------|
+| OpenRefine | [github.com/OpenRefine/OpenRefine](https://github.com/OpenRefine/OpenRefine) | 9k+ stars / 1.5k+ forks | BSD-3-Clause | Java | Tabular Data | 数据清洗和转换工具，可手工标注数据质量问题、分类等，适用于表格数据预处理 |
+| Pandas + Jupyter | [pandas.pydata.org](https://pandas.pydata.org) | 开源库 | BSD | Python | Tabular Data | 通过编写脚本可进行表格数据标注，配合 Jupyter 小部件（如 Pigeon）可快速标注 |
+| Label Studio (表格模板) | 详见[综合类](#综合类标注工具) | - | Apache-2.0 | - | Tabular Data | 支持 CSV/Excel 数据标注，可添加标签列，适用于分类、回归等任务 |
+
+## 代码与程序分析专用工具
+
+代码标注通常复用支持代码高亮的文本/NLP 工具。以下工具对该场景有良好支持：
+
+- **Label Studio**：提供代码模板，支持语法高亮，可用于代码分类、缺陷标注、代码搜索等任务（详见[综合类标注工具](#综合类标注工具)）
+- **Argilla**：支持代码文本的标注，可与 LLM 结合进行代码质量评估或生成训练数据（详见[自然语言处理专用工具](#自然语言处理nlp专用工具)）
+- **doccano**：可配置为代码序列标注（如命名实体识别在代码上的应用），支持代码片段标注（详见[自然语言处理专用工具](#自然语言处理nlp专用工具)）
 
 ## 其他专用工具
 
@@ -191,17 +222,20 @@
 20. **医学影像通用**：V7 Darwin、Encord、NimbusImage 或 Cytomine - 支持 DICOM、病理切片等专业格式
 21. **数字病理学**：Cytomine - 专为大规模病理图像设计，支持 AI 辅助和 CBIR
 22. **生物影像研究**：NimbusImage - 支持 SAM 辅助分割和批量标注计算
-23. **音频/语音标注**：Audino - 波形+语谱图双视图，支持 VAD、说话人分离、ASR 校正
-24. **音乐信息检索（MIR）**：SonicAnnotator - 声学特征驱动，支持 MFCC/Chroma 可视化
-25. **语音转录标注**：WhisperLabel - Whisper 原生集成，一键转录编辑
-26. **遥感影像标注**：SatFlow Annotator - 多光谱遥感，支持 NDVI 计算、STAC 元数据
-27. **工业缺陷检测**：DefectScope - 超高分辨率图像，亚像素级边缘标注
-28. **地理空间矢量标注**：GeoLabeler - Shapefile/GeoJSON，拓扑校验，OSGeo 官方
-29. **图结构数据**：GraphAnno - NetworkX/PyG 图数据，GNN 可视化
-30. **表格数据标注**：TabularLabel - CSV/Excel，千万行内存映射
-31. **代码标注**：CodeAnnotator - 函数意图、漏洞模式（CWE）、Jupyter 支持
-32. **macOS 用户**：RectLabel - 原生 macOS 应用
-33. **PDF 文档标注**：AutoDive+ - 支持多模态文档直接标注
+23. **音频/语音标注**：Audino - 开源语音标注工具，支持 ASR 数据标注、说话人识别
+24. **语音对齐**：Montreal Forced Aligner - 强制对齐工具，生成音素级标注
+25. **专业语言标注**：ELAN - 多层标注，适用于语音、手语、对话等复杂标注
+26. **语音学分析**：Praat - 手工标注音段、音高、共振峰，学术界广泛使用
+27. **遥感影像标注**：RoboSat - 遥感图像语义分割，支持从 OpenStreetMap 生成标注
+28. **卫星图像标注**：label-maker - 从卫星图像和 OSM 数据生成训练标签
+29. **地理特征标注**：geojson.io - 在线 GeoJSON 编辑器，手工标注地理特征
+30. **GIS 专业标注**：QGIS - 专业 GIS 软件，支持复杂地理标注任务
+31. **工业检测**：AnyLabeling/X-AnyLabeling/CVAT - 集成 AI 模型，支持缺陷标注
+32. **图结构标注**：Gephi/Cytoscape - 网络分析和可视化，支持节点属性标注
+33. **表格数据标注**：OpenRefine - 数据清洗和转换，支持数据质量标注
+34. **代码标注**：Label Studio/Argilla/doccano - 支持代码高亮和序列标注
+35. **macOS 用户**：RectLabel - 原生 macOS 应用
+36. **PDF 文档标注**：AutoDive+ - 支持多模态文档直接标注
 
 ### 按部署方式选择：
 
@@ -272,18 +306,19 @@
 
 ## 📊 统计概览
 
-- **总计工具数**：76 个
-- **开源工具**：49+ 个
-- **商业产品**：18+ 个
+- **总计工具数**：80+ 个
+- **开源工具**：52+ 个
+- **商业产品**：20+ 个
 - **学术研究项目**：3 个
 - **支持 CV**：40+ 个
 - **支持 NLP**：17+ 个
 - **支持点云/3D**：8 个
+- **支持音频/语音**：5 个
+- **遥感/地理**：4 个
 - **医学影像**：5 个
 - **多模态**：4 个
-- **音频/语音**：3 个
-- **遥感与工业检测**：3 个
-- **其他垂直领域（图/表格/代码）**：3 个
+- **图结构**：3 个
+- **表格数据**：3 个
 - **命令行/隐私工具**：2 个
 - **支持自托管**：26+ 个
 - **AI 辅助标注**：25+ 个
@@ -321,13 +356,27 @@ SceneXplain Studio 等工具的出现，解决了传统点云标注与 2D 视图
 针对特定领域的专业标注工具不断涌现：
 - **医学影像**：MedSegLabel（MONAI 集成）、Cytomine（数字病理学）、NimbusImage（生物影像）
 - **自动驾驶**：Kognic（3D 语义分割）、SceneXplain Studio（多传感器融合）
-- **音频/语音**：Audino（VAD+说话人分离）、SonicAnnotator（MIR 标准）、WhisperLabel（ASR 校正）
-- **遥感与工业**：SatFlow Annotator（多光谱遥感）、DefectScope（工业缺陷）、GeoLabeler（地理空间）
+- **音频/语音**：Audino（ASR 数据标注）、Montreal Forced Aligner（强制对齐）、ELAN（多层标注）、Praat（语音学分析）
+- **遥感与地理**：RoboSat（遥感分割）、label-maker（卫星图像）、QGIS（GIS 专业）
+- **工业检测**：AnyLabeling/X-AnyLabeling（AI 辅助缺陷标注）
 - **计算社会科学**：ActiveTigger（LLM 辅助）
-- **图/表格/代码**：GraphAnno（GNN）、TabularLabel（大规模表格）、CodeAnnotator（漏洞标注）
+- **图结构**：Gephi（网络分析）、Cytoscape（生物网络）
+- **表格数据**：OpenRefine（数据清洗）
 - **MLOps 集成**：cli-label（命令行原生）
 
-### 8. 质量控制与程序化检查
+### 8. 音频标注走向细粒度与自动化
+
+随着语音合成、情感计算等需求增长，音频标注正从简单的转写向音段对齐、韵律标注等细粒度方向发展，Montreal Forced Aligner 等强制对齐工具成为标配。
+
+### 9. 遥感与地理标注融合 GIS 与 AI
+
+RoboSat 等工具的出现，标志着传统 GIS 软件与深度学习数据准备流程的深度整合，自动化提取地理特征成为可能。
+
+### 10. 工业检测标注强调 AI 辅助与实时性
+
+在工业 4.0 背景下，标注工具不仅需要支持缺陷类型标注，还需与在线检测系统联动，AnyLabeling 等集成 Segment Anything 的工具大幅提升了标注效率。
+
+### 11. 质量控制与程序化检查
 
 企业级平台（如 Kognic、Kili Technology）引入程序化检查功能，自动验证标注的几何属性、一致性等，大幅提升数据质量和标注效率。
 
