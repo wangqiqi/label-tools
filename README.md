@@ -108,7 +108,7 @@
 | Encord | [encord.com](https://encord.com) | SaaS + VPC + 私有化 | 按标注量 + 企业定制 | Web, AI | CV, NLP, Multi-modal, 3D, LiDAR | AI 辅助数据标注平台，支持图像、视频、音频、文档、3D 和 LiDAR 数据，提供 HITL 工作流 |
 | SuperAnnotate | [superannotate.com](https://www.superannotate.com) | SaaS + 私有化 | 按用户席位 + 标注量 | Web, AI | CV, NLP, Multi-modal | 端到端数据标注平台，支持主动学习和数据管理，提供质量控制和团队协作功能 |
 | Scale AI | [scale.com](https://scale.com) | SaaS + 托管服务 | 按标注量 + 服务费 | Web, AI | CV, NLP, Multi-modal | 领先的 AI 数据平台，提供高质量标注服务和工具，支持大规模数据处理 |
-| Segments.ai | [segments.ai](https://segments.ai) / [文档](https://docs.segments.ai) | SaaS | 免费 + 按用户席位 | Web | CV, 2D, 3D, Point Cloud | 多传感器数据标注平台，支持 2D 图像和 3D 点云同步标注，适合机器人和自动驾驶（YC W21） |
+| Segments.ai | [文档](https://docs.segments.ai) | SaaS | 免费 + 按用户席位 | Web | CV, 2D, 3D, Point Cloud | 多传感器数据标注平台，支持 2D 图像和 3D 点云同步标注，适合机器人和自动驾驶（YC W21） |
 | Labellerr | [labellerr.com](https://www.labellerr.com) | SaaS + 私有化 | 按标注量 + 企业定制 | Web, AI | CV, NLP, Video | 数据标注平台，支持自托管，提供 AI 辅助标注，声称可减少 80% 标注时间 |
 | VisionRepo | [averroes.ai](https://averroes.ai) | SaaS | 按项目定价 | Web | CV, Image, Video | 数据标注和视觉数据管理平台，支持 AI 辅助工作流和数据版本控制 |
 | Playment | [YC 公司页面](https://www.ycombinator.com/companies/playment) | 托管服务 | 按标注量 | Web | CV, Image, Video, Sensor | 全托管数据标注平台，专注于自动驾驶、无人机和地图等领域（2021年被 TELUS International 收购） |
@@ -131,7 +131,7 @@
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| AutoDive+ | [GitHub](https://github.com/autodive/autodive) | 学术研究 | 研究项目 | Python, AI | Multi-modal, PDF | 增强版多模态在线标注工具，支持 PDF 文档直接标注，通过主动学习提高效率，适合材料科学、生物合成等领域 |
+| AutoDive+ | [arXiv](https://arxiv.org/abs/2310.12024) | 学术研究 | 研究项目 | Python, AI | Multi-modal, PDF | 增强版多模态在线标注工具，支持 PDF 文档直接标注，通过主动学习提高效率，适合材料科学、生物合成等领域 |
 | Appen 多模态工具 | [appen.com](https://tw.appendata.com/blogs/multimodal-labeling-tool) | 商业产品 | 专有 | Web, AI | Multi-modal, Semantic | 专业多模态标注平台，支持语义层级的跨模态关联（如将文字描述关联到影像区域），适合医疗 AI、智能客服等场景 |
 
 ## 音频/语音专用工具
@@ -140,9 +140,9 @@
 |------|------|-------------|---------|---------|---------|------|
 | Audino | [github.com/midas-research/audino](https://github.com/midas-research/audino) | 600+ stars / 80+ forks | MIT | Python, React | Audio, Speech | 开源语音和音频标注工具，支持 ASR 数据标注、说话人识别、音频分类等，提供 Web 界面和协作功能 |
 | Montreal Forced Aligner | [github.com/MontrealCorpusTools/Montreal-Forced-Aligner](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) | 1.1k+ stars / 200+ forks | MIT | Python | Audio, Speech | 强制对齐工具，用于将语音与文本对齐，生成音素级标注，广泛用于语音数据集准备 |
-| ELAN | [archive.mpi.nl/tla/elan](https://archive.mpi.nl/tla/elan) / [GitHub](https://github.com/liepa-project/elan) | 专业软件 | GPL-3.0 | Java | Audio, Video | 专业语言标注工具，支持多层标注，适用于语音、手语、对话等复杂标注，输出多种格式 |
+| ELAN | [GitHub](https://github.com/liepa-project/elan) | 专业软件 | GPL-3.0 | Java | Audio, Video | 专业语言标注工具，支持多层标注，适用于语音、手语、对话等复杂标注，输出多种格式 |
 | Praat | [praat.org](https://www.fon.hum.uva.nl/praat/) | 专业软件 | GPL | C++ | Audio, Speech | 语音学分析软件，可用于手工标注音段、音高、共振峰等，功能强大，学术界广泛使用 |
-| Transcriber | [trans.sourceforge.net](https://trans.sourceforge.net) | 开源软件 | GPL | Tcl/Tk | Audio, Speech | 语音转写标注工具，支持分段、说话人标注，适用于语音识别数据准备 |
+| Transcriber | [SourceForge](https://sourceforge.net/projects/trans/) | 开源软件 | GPL | Tcl/Tk | Audio, Speech | 语音转写标注工具，支持分段、说话人标注，适用于语音识别数据准备 |
 
 ## 遥感与地理信息专用工具
 
