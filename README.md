@@ -142,7 +142,6 @@
 | Montreal Forced Aligner | [github.com/MontrealCorpusTools/Montreal-Forced-Aligner](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) | 1.1k+ stars / 200+ forks | MIT | Python | Audio, Speech | 强制对齐工具，用于将语音与文本对齐，生成音素级标注，广泛用于语音数据集准备 |
 | ELAN | [GitHub](https://github.com/liepa-project/elan) | 专业软件 | GPL-3.0 | Java | Audio, Video | 专业语言标注工具，支持多层标注，适用于语音、手语、对话等复杂标注，输出多种格式 |
 | Praat | [praat.org](https://www.fon.hum.uva.nl/praat/) | 专业软件 | GPL | C++ | Audio, Speech | 语音学分析软件，可用于手工标注音段、音高、共振峰等，功能强大，学术界广泛使用 |
-| Transcriber | [GitHub](https://github.com/tcl-mirror/tcltk-transcriber) | 开源软件 | GPL | Tcl/Tk | Audio, Speech | 语音转写标注工具，支持分段、说话人标注，适用于语音识别数据准备 |
 
 ## 遥感与地理信息专用工具
 
@@ -225,7 +224,7 @@
 23. **音频/语音标注**：Audino - 开源语音标注工具，支持 ASR 数据标注、说话人识别
 24. **语音对齐**：Montreal Forced Aligner - 强制对齐工具，生成音素级标注
 25. **语音学分析**：Praat - 手工标注音段、音高、共振峰，学术界广泛使用
-26. **语音转写**：Transcriber - 支持分段、说话人标注，适用于语音识别数据准备
+26. **专业语言标注**：ELAN - 多层标注，适用于语音、手语、对话等复杂标注
 27. **遥感影像标注**：RoboSat - 遥感图像语义分割，支持从 OpenStreetMap 生成标注
 28. **卫星图像标注**：label-maker - 从卫星图像和 OSM 数据生成训练标签
 29. **地理特征标注**：geojson.io - 在线 GeoJSON 编辑器，手工标注地理特征
@@ -306,14 +305,14 @@
 
 ## 📊 统计概览
 
-- **总计工具数**：80+ 个
+- **总计工具数**：79+ 个
 - **开源工具**：52+ 个
 - **商业产品**：20+ 个
 - **学术研究项目**：3 个
 - **支持 CV**：40+ 个
 - **支持 NLP**：17+ 个
 - **支持点云/3D**：8 个
-- **支持音频/语音**：5 个
+- **支持音频/语音**：4 个
 - **遥感/地理**：4 个
 - **医学影像**：5 个
 - **多模态**：4 个
