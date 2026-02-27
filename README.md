@@ -93,9 +93,9 @@
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
 | Universal Data Tool | [GitHub](https://github.com/UniversalDataTool/universal-data-tool) | 2k+ stars / 200+ forks | MIT | JavaScript, React | CV, NLP, Text, Image | 通用数据标注工具，支持多种数据类型，提供 Web 界面和桌面应用，易于协作 |
-| Annotorious | [GitHub](https://github.com/annotorious/annotorious) | 1.5k+ stars / 200+ forks | BSD-3-Clause | JavaScript | Image, Web | JavaScript 图像标注库，只需几行代码即可为网页添加标注功能，轻量级且易于集成 |
+| Annotorious | [GitHub](https://github.com/annotorious/annotorious) | 600+ stars / 90+ forks | BSD-3-Clause | JavaScript | Image, Web | JavaScript 图像标注库，只需几行代码即可为网页添加标注功能，轻量级且易于集成 |
 | Recogito | [GitHub](https://github.com/recogito/recogito-js) | 800+ stars / 100+ forks | BSD-3-Clause | JavaScript | Text, Image | 文本和图像交互式标注 JavaScript 库，支持协作标注，适合数字人文项目 |
-| Pigeon | [GitHub](https://github.com/agermanidis/pigeon) | 700+ stars / 100+ forks | Apache-2.0 | Python, Jupyter | Jupyter, Text, Image | Jupyter Notebook 标注小部件，快速标注数据集，支持文本、图像和回归任务 |
+| Pigeon | [GitHub](https://github.com/agermanidis/pigeon) | 700+ stars / 100+ forks | Apache-2.0 | Python, Jupyter | Jupyter, Text, Image | Jupyter Notebook 标注小部件，快速标注数据集，支持文本、图像和回归任务，100% 本地运行 |
 | Universal Data Tool | [GitHub](https://github.com/UniversalDataTool/universal-data-tool) | 2k+ stars / 200+ forks | MIT | JavaScript, React | CV, NLP, Text, Image | 通用数据标注工具，支持多种数据类型，提供 Web 界面和桌面应用，易于协作 |
 | Pigeon | [GitHub](https://github.com/agermanidis/pigeon) | 700+ stars / 100+ forks | Apache-2.0 | Python, Jupyter | Jupyter, Text, Image | Jupyter Notebook 标注小部件，快速标注数据集，支持文本、图像和回归任务，100% 本地运行 |
 | ipyannotations | [PyPI](https://pypi.org/project/ipyannotations) | 200+ stars / 30+ forks | MIT | Python, Jupyter | Jupyter, Image | Jupyter 富标注库，专为图像数据设计，提供交互式标注界面 |
@@ -138,7 +138,7 @@
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| Audino | [GitHub](https://github.com/midas-research/audino) | 600+ stars / 80+ forks | MIT | Python, React | Audio, Speech | 开源语音和音频标注工具，支持 ASR 数据标注、说话人识别、音频分类等，提供 Web 界面和协作功能 |
+| Audino | [GitHub](https://github.com/midas-research/audino) | 970+ stars / 110+ forks | MIT | Python, React | Audio, Speech | 开源语音和音频标注工具，支持 ASR 数据标注、说话人识别、音频分类等，提供 Web 界面和协作功能 |
 | Montreal Forced Aligner | [GitHub](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) | 1.1k+ stars / 200+ forks | MIT | Python | Audio, Speech | 强制对齐工具，用于将语音与文本对齐，生成音素级标注，广泛用于语音数据集准备 |
 | ELAN | [GitHub](https://github.com/liepa-project/elan) | 专业软件 | GPL-3.0 | Java | Audio, Video | 专业语言标注工具，支持多层标注，适用于语音、手语、对话等复杂标注，输出多种格式 |
 | Praat | [官网](https://www.fon.hum.uva.nl/praat/) | 专业软件 | GPL | C++ | Audio, Speech | 语音学分析软件，可用于手工标注音段、音高、共振峰等，功能强大，学术界广泛使用 |
