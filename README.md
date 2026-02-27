@@ -29,26 +29,26 @@
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| Label Studio | [github.com/HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 26.5k+ stars / 3.3k+ forks | Apache-2.0 | Python, React | CV, NLP, Audio, Video, Text, Time-series | 最灵活的多模态标注平台，支持图像、文本、音频、视频等多种数据类型，提供标准化输出格式，适合企业级应用 |
-| CVAT | [github.com/cvat-ai/cvat](https://github.com/cvat-ai/cvat) | 15.4k+ stars / 3.1k+ forks | MIT | Python, Django, React | CV, Video, Image | 业界领先的计算机视觉标注工具，支持图像和视频标注，提供自动标注、跟踪等高级功能，适合任何规模的团队 |
-| Labelme | [github.com/wkentaro/labelme](https://github.com/wkentaro/labelme) | 15.6k+ stars / 3.6k+ forks | GPLv3 | Python, Qt | CV, Image | Python 图像多边形标注工具，支持多边形、矩形、圆形、线条、点和图像级标注，轻量级且易于使用 |
-| LabelImg | [github.com/HumanSignal/labelImg](https://github.com/HumanSignal/labelImg) | 23k+ stars / 6.4k+ forks | MIT | Python, Qt | CV, Image | 经典的图像边界框标注工具，专注于目标检测任务，支持 PASCAL VOC 和 YOLO 格式（已归档，不再维护） |
+| Label Studio | [GitHub](https://github.com/HumanSignal/label-studio) | 26.5k+ stars / 3.3k+ forks | Apache-2.0 | Python, React | CV, NLP, Audio, Video, Text, Time-series | 最灵活的多模态标注平台，支持图像、文本、音频、视频等多种数据类型，提供标准化输出格式，适合企业级应用 |
+| CVAT | [GitHub](https://github.com/cvat-ai/cvat) | 15.4k+ stars / 3.1k+ forks | MIT | Python, Django, React | CV, Video, Image | 业界领先的计算机视觉标注工具，支持图像和视频标注，提供自动标注、跟踪等高级功能，适合任何规模的团队 |
+| Labelme | [GitHub](https://github.com/wkentaro/labelme) | 15.6k+ stars / 3.6k+ forks | GPLv3 | Python, Qt | CV, Image | Python 图像多边形标注工具，支持多边形、矩形、圆形、线条、点和图像级标注，轻量级且易于使用 |
+| LabelImg | [GitHub](https://github.com/HumanSignal/labelImg) | 23k+ stars / 6.4k+ forks | MIT | Python, Qt | CV, Image | 经典的图像边界框标注工具，专注于目标检测任务，支持 PASCAL VOC 和 YOLO 格式（已归档，不再维护） |
 | Supervisely | [supervisely.com](https://supervisely.com) | 商业产品（部分开源） | 专有 | Python, Web | CV, Video, Image, Point Cloud | 端到端计算机视觉平台，支持图像、视频和点云标注，提供深度学习集成和协作功能 |
 
 ## 计算机视觉（CV）专用工具
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| AnyLabeling | [github.com/vietanhdev/anylabeling](https://github.com/vietanhdev/anylabeling) | 3.2k+ stars / 400+ forks | GPLv3 | Python, Qt | CV, Image, Video | AI 辅助标注工具，集成 YOLO、SAM、SAM2 和 MobileSAM，支持自动标注和多种标注类型 |
-| X-AnyLabeling | [github.com/CVHub520/X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling) | 8.2k+ stars / 900+ forks | GPLv3 | Python, Qt | CV, Image, OCR | 增强版 AnyLabeling，支持 Segment Anything 和多种 AI 模型，专注于工业级自动标注 |
+| AnyLabeling | [GitHub](https://github.com/vietanhdev/anylabeling) | 3.2k+ stars / 400+ forks | GPLv3 | Python, Qt | CV, Image, Video | AI 辅助标注工具，集成 YOLO、SAM、SAM2 和 MobileSAM，支持自动标注和多种标注类型 |
+| X-AnyLabeling | [GitHub](https://github.com/CVHub520/X-AnyLabeling) | 8.2k+ stars / 900+ forks | GPLv3 | Python, Qt | CV, Image, OCR | 增强版 AnyLabeling，支持 Segment Anything 和多种 AI 模型，专注于工业级自动标注 |
 | makesense.ai | [makesense.ai](https://makesense.ai) | 3k+ stars | GPLv3 | TypeScript, React | CV, Image | 免费在线图像标注工具，无需安装，支持目标检测、图像分类和语义分割，适合快速原型开发 |
-| COCO Annotator | [github.com/jsbroks/coco-annotator](https://github.com/jsbroks/coco-annotator) | 3k+ stars / 700+ forks | MIT | Python, Vue.js | CV, Image | Web 图像分割标注工具，专为目标检测、定位和关键点标注设计，输出 COCO 格式（不活跃维护） |
-| VGG Image Annotator (VIA) | [gitlab.com/vgg/via](https://gitlab.com/vgg/via) | 2.5k+ stars | BSD-2-Clause | JavaScript | CV, Image, Video | 轻量级的图像和视频标注工具，完全在浏览器中运行，支持多种标注类型 |
-| VoTT | [github.com/microsoft/VoTT](https://github.com/microsoft/VoTT) | 4.5k+ stars / 1k+ forks | MIT | TypeScript, React, Electron | CV, Image, Video | 微软开源的视觉对象标注工具，Electron 应用，支持端到端目标检测模型构建（已归档） |
-| Sloth | [github.com/cvhciKIT/sloth](https://github.com/cvhciKIT/sloth) | 1k+ stars / 300+ forks | MIT | Python, Qt | CV, Image, Video | 图像和视频数据标注工具，专为计算机视觉研究设计（不活跃维护） |
-| Yolo_mark | [github.com/AlexeyAB/Yolo_mark](https://github.com/AlexeyAB/Yolo_mark) | 1.5k+ stars / 600+ forks | MIT | C++, OpenCV | CV, Image | YOLO 专用标注工具，GUI 界面，用于标注边界框训练 Darknet YOLO 模型（不活跃维护） |
-| ImgLab | [github.com/NaturalIntelligence/imglab](https://github.com/NaturalIntelligence/imglab) | 1k+ stars / 200+ forks | MIT | JavaScript, Vue.js | CV, Image | Web 图像标注工具，支持多种格式（不活跃维护） |
-| JS Segment Annotator | [github.com/kyamagu/js-segment-annotator](https://github.com/kyamagu/js-segment-annotator) | 521+ stars / 159+ forks | BSD-3-Clause | JavaScript | CV, Image | 基于图像分割的 JavaScript 标注工具，纯前端实现（已归档） |
+| COCO Annotator | [GitHub](https://github.com/jsbroks/coco-annotator) | 3k+ stars / 700+ forks | MIT | Python, Vue.js | CV, Image | Web 图像分割标注工具，专为目标检测、定位和关键点标注设计，输出 COCO 格式（不活跃维护） |
+| VGG Image Annotator (VIA) | [GitLab](https://gitlab.com/vgg/via) | 2.5k+ stars | BSD-2-Clause | JavaScript | CV, Image, Video | 轻量级的图像和视频标注工具，完全在浏览器中运行，支持多种标注类型 |
+| VoTT | [GitHub](https://github.com/microsoft/VoTT) | 4.5k+ stars / 1k+ forks | MIT | TypeScript, React, Electron | CV, Image, Video | 微软开源的视觉对象标注工具，Electron 应用，支持端到端目标检测模型构建（已归档） |
+| Sloth | [GitHub](https://github.com/cvhciKIT/sloth) | 1k+ stars / 300+ forks | MIT | Python, Qt | CV, Image, Video | 图像和视频数据标注工具，专为计算机视觉研究设计（不活跃维护） |
+| Yolo_mark | [GitHub](https://github.com/AlexeyAB/Yolo_mark) | 1.5k+ stars / 600+ forks | MIT | C++, OpenCV | CV, Image | YOLO 专用标注工具，GUI 界面，用于标注边界框训练 Darknet YOLO 模型（不活跃维护） |
+| ImgLab | [GitHub](https://github.com/NaturalIntelligence/imglab) | 1k+ stars / 200+ forks | MIT | JavaScript, Vue.js | CV, Image | Web 图像标注工具，支持多种格式（不活跃维护） |
+| JS Segment Annotator | [GitHub](https://github.com/kyamagu/js-segment-annotator) | 521+ stars / 159+ forks | BSD-3-Clause | JavaScript | CV, Image | 基于图像分割的 JavaScript 标注工具，纯前端实现（已归档） |
 | RectLabel | [rectlabel.com](https://rectlabel.com) | 商业产品 | 专有 | Swift, macOS | CV, Image | macOS 专用离线图像标注工具，支持边界框、多边形、关键点等，输出 COCO/YOLO/VOC 格式 |
 | Roboflow Annotate | [roboflow.com/annotate](https://roboflow.com/annotate) | 商业产品（部分开源） | 专有 | Web, AI | CV, Image, Video | AI 辅助标注工具，支持自动标注和主动学习，可利用 50,000+ 公开模型加速标注过程 |
 
@@ -56,48 +56,48 @@
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| doccano | [github.com/doccano/doccano](https://github.com/doccano/doccano) | 10.6k+ stars / 1.9k+ forks | MIT | Python, Django, Vue.js | NLP, Text | 开源文本标注工具，专为 NLP 任务设计，支持序列标注、文本分类、序列到序列任务等 |
-| brat | [github.com/nlplab/brat](https://github.com/nlplab/brat) | 1.8k+ stars / 500+ forks | MIT | Python, JavaScript | NLP, Text | 快速标注工具，基于 Web 的文本标注、可视化和编辑工具，专为结构化标注设计（不活跃维护） |
-| Argilla | [github.com/argilla-io/argilla](https://github.com/argilla-io/argilla) | 4.9k+ stars / 450+ forks | Apache-2.0 | Python, FastAPI, Vue.js | NLP, Text, LLM, RLHF | 面向 LLM 和 NLP 的协作标注平台，支持 RLHF 数据标注、数据质量监控和模型评估 |
-| WebAnno | [github.com/webanno/webanno](https://github.com/webanno/webanno) | 800+ stars / 200+ forks | Apache-2.0 | Java, Spring | NLP, Text | 通用 Web 文本标注工具，支持多种语言学标注（不活跃维护，已迁移到 INCEpTION） |
-| ActiveTigger | [github.com/emilienschultz/activetigger](https://github.com/emilienschultz/activetigger) | 31+ stars | 开源 | Python, BERT | NLP, Text | 为计算社会科学研究设计的轻量级文本标注工具，集成微调模型和主动学习，支持 LLM 即服务进行提示式标注 |
+| doccano | [GitHub](https://github.com/doccano/doccano) | 10.6k+ stars / 1.9k+ forks | MIT | Python, Django, Vue.js | NLP, Text | 开源文本标注工具，专为 NLP 任务设计，支持序列标注、文本分类、序列到序列任务等 |
+| brat | [GitHub](https://github.com/nlplab/brat) | 1.8k+ stars / 500+ forks | MIT | Python, JavaScript | NLP, Text | 快速标注工具，基于 Web 的文本标注、可视化和编辑工具，专为结构化标注设计（不活跃维护） |
+| Argilla | [GitHub](https://github.com/argilla-io/argilla) | 4.9k+ stars / 450+ forks | Apache-2.0 | Python, FastAPI, Vue.js | NLP, Text, LLM, RLHF | 面向 LLM 和 NLP 的协作标注平台，支持 RLHF 数据标注、数据质量监控和模型评估 |
+| WebAnno | [GitHub](https://github.com/webanno/webanno) | 800+ stars / 200+ forks | Apache-2.0 | Java, Spring | NLP, Text | 通用 Web 文本标注工具，支持多种语言学标注（不活跃维护，已迁移到 INCEpTION） |
+| ActiveTigger | [GitHub](https://github.com/emilienschultz/activetigger) | 31+ stars | 开源 | Python, BERT | NLP, Text | 为计算社会科学研究设计的轻量级文本标注工具，集成微调模型和主动学习，支持 LLM 即服务进行提示式标注 |
 | tagtog | [tagtog 文档](https://docs.tagtog.com) | 商业产品 | 专有 | Web | NLP, Text, NER | Web 文本标注工具，专注于语义标注和 NER，支持协作和自动标注（官网访问受限） |
 | Prodigy | [prodi.gy](https://prodi.gy) | 商业产品 | 专有 | Python | NLP, Text, Image | 由 spaCy 团队开发的高效标注工具，支持主动学习，可与 Python 工作流深度集成，适合快速迭代 |
-| Argilla | [github.com/argilla-io/argilla](https://github.com/argilla-io/argilla) | 3.5k+ stars / 350+ forks | Apache-2.0 | Python, FastAPI, Vue.js | NLP, Text, LLM | 面向 LLM 和 NLP 的协作标注平台，支持数据质量监控和模型评估 |
-| LabelLLM | [github.com/opendatalab/LabelLLM](https://github.com/opendatalab/LabelLLM) | 1k+ stars / 100+ forks | Apache-2.0 | Python, Vue.js | NLP, Text, LLM | 专为大语言模型设计的开源标注平台，支持对话、指令等多种 LLM 数据标注 |
+| Argilla | [GitHub](https://github.com/argilla-io/argilla) | 3.5k+ stars / 350+ forks | Apache-2.0 | Python, FastAPI, Vue.js | NLP, Text, LLM | 面向 LLM 和 NLP 的协作标注平台，支持数据质量监控和模型评估 |
+| LabelLLM | [GitHub](https://github.com/opendatalab/LabelLLM) | 1k+ stars / 100+ forks | Apache-2.0 | Python, Vue.js | NLP, Text, LLM | 专为大语言模型设计的开源标注平台，支持对话、指令等多种 LLM 数据标注 |
 
 ## 点云（Point Cloud）专用工具
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| labelCloud | [github.com/ch-sa/labelCloud](https://github.com/ch-sa/labelCloud) | 769+ stars / 150+ forks | GPLv3 | Python, Qt | Point Cloud, 3D | 轻量级 3D 点云边界框标注工具，支持多种点云格式，界面友好 |
-| SUSTechPOINTS | [github.com/naurril/SUSTechPOINTS](https://github.com/naurril/SUSTechPOINTS) | 1.1k+ stars / 200+ forks | MIT | Python, Qt | Point Cloud, 3D | 专为自动驾驶设计的 3D 点云标注平台，支持激光雷达数据标注 |
-| Scalabel | [github.com/scalabel/scalabel](https://github.com/scalabel/scalabel) | 543+ stars / 112+ forks | Apache-2.0 | TypeScript, React | CV, 2D, 3D | 多功能 Web 标注工具，支持 2D 和 3D 数据标注，BDD100K 数据集使用此工具标注 |
-| 3D Annotation Tool | [github.com/strayrobots/3d-annotation-tool](https://github.com/strayrobots/3d-annotation-tool) | 300+ stars / 60+ forks | MIT | Python, Three.js | Point Cloud, 3D | 图形化 3D 点云和数据标注工具，支持多种 3D 数据格式 |
-| Supervisely Point Cloud | [github.com/supervisely-ecosystem/pointcloud-labeling-tool](https://github.com/supervisely-ecosystem/pointcloud-labeling-tool) | 200+ stars / 40+ forks | MIT | Python, Web | Point Cloud, 3D, Video | 支持激光雷达/雷达传感器的综合 3D 场景标注，带 AI 目标跟踪和点云分割功能 |
+| labelCloud | [GitHub](https://github.com/ch-sa/labelCloud) | 769+ stars / 150+ forks | GPLv3 | Python, Qt | Point Cloud, 3D | 轻量级 3D 点云边界框标注工具，支持多种点云格式，界面友好 |
+| SUSTechPOINTS | [GitHub](https://github.com/naurril/SUSTechPOINTS) | 1.1k+ stars / 200+ forks | MIT | Python, Qt | Point Cloud, 3D | 专为自动驾驶设计的 3D 点云标注平台，支持激光雷达数据标注 |
+| Scalabel | [GitHub](https://github.com/scalabel/scalabel) | 543+ stars / 112+ forks | Apache-2.0 | TypeScript, React | CV, 2D, 3D | 多功能 Web 标注工具，支持 2D 和 3D 数据标注，BDD100K 数据集使用此工具标注 |
+| 3D Annotation Tool | [GitHub](https://github.com/strayrobots/3d-annotation-tool) | 300+ stars / 60+ forks | MIT | Python, Three.js | Point Cloud, 3D | 图形化 3D 点云和数据标注工具，支持多种 3D 数据格式 |
+| Supervisely Point Cloud | [GitHub](https://github.com/supervisely-ecosystem/pointcloud-labeling-tool) | 200+ stars / 40+ forks | MIT | Python, Web | Point Cloud, 3D, Video | 支持激光雷达/雷达传感器的综合 3D 场景标注，带 AI 目标跟踪和点云分割功能 |
 | Kognic Platform | [kognic.com](https://www.kognic.com) | 商业产品 | 专有 | Web, AI | Point Cloud, 3D, Semantic Segmentation | 专注于自动驾驶和机器人的企业级平台，支持 3D 语义/实例分割质量分析和程序化检查（2026年1月更新） |
 
 ## 服务端/自托管平台
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| Diffgram | [github.com/diffgram/diffgram](https://github.com/diffgram/diffgram) | 1.8k+ stars / 300+ forks | MIT | Python, Vue.js | CV, NLP, Multi-modal | AI 数据存储平台，支持模式、预测和人工监督，可自托管部署，提供完整的数据工作流 |
-| INCEpTION | [github.com/inception-project/inception](https://github.com/inception-project/inception) | 800+ stars / 200+ forks | Apache-2.0 | Java, Spring | NLP, Text | 语义标注平台，提供智能标注辅助和知识管理，支持自托管部署，适合学术研究和企业应用 |
-| Tator | [github.com/cvisionai/Tator-Native](https://github.com/cvisionai/Tator-Native) | 34+ stars / 7+ forks | AGPL-3.0 | C++, Qt | CV, Video, Image | 视频分析 Web 平台，支持大规模视频和图像标注，提供 AI 辅助标注和自定义工作流（已归档，被 Tator Online 取代） |
-| Scalabel | [github.com/scalabel/scalabel](https://github.com/scalabel/scalabel) | 543+ stars / 112+ forks | Apache-2.0 | TypeScript, React | CV, 2D, 3D | 多功能 Web 标注工具，支持 2D 和 3D 数据标注，BDD100K 数据集使用此工具标注 |
-| LabelFlow | [github.com/labelflow/labelflow](https://github.com/labelflow/labelflow) | 500+ stars / 80+ forks | AGPL-3.0 | TypeScript, Next.js | CV, Image | 开放的图像标注平台，支持协作和自托管，提供现代化的 Web 界面 |
+| Diffgram | [GitHub](https://github.com/diffgram/diffgram) | 1.8k+ stars / 300+ forks | MIT | Python, Vue.js | CV, NLP, Multi-modal | AI 数据存储平台，支持模式、预测和人工监督，可自托管部署，提供完整的数据工作流 |
+| INCEpTION | [GitHub](https://github.com/inception-project/inception) | 800+ stars / 200+ forks | Apache-2.0 | Java, Spring | NLP, Text | 语义标注平台，提供智能标注辅助和知识管理，支持自托管部署，适合学术研究和企业应用 |
+| Tator | [GitHub](https://github.com/cvisionai/Tator-Native) | 34+ stars / 7+ forks | AGPL-3.0 | C++, Qt | CV, Video, Image | 视频分析 Web 平台，支持大规模视频和图像标注，提供 AI 辅助标注和自定义工作流（已归档，被 Tator Online 取代） |
+| Scalabel | [GitHub](https://github.com/scalabel/scalabel) | 543+ stars / 112+ forks | Apache-2.0 | TypeScript, React | CV, 2D, 3D | 多功能 Web 标注工具，支持 2D 和 3D 数据标注，BDD100K 数据集使用此工具标注 |
+| LabelFlow | [GitHub](https://github.com/labelflow/labelflow) | 500+ stars / 80+ forks | AGPL-3.0 | TypeScript, Next.js | CV, Image | 开放的图像标注平台，支持协作和自托管，提供现代化的 Web 界面 |
 | Ango Hub | [imerit.net/ango-hub](https://imerit.net/ango-hub) | 商业产品（部分开源） | 专有 | Web | CV, NLP, Multi-modal | 数据标注和模型微调平台，支持多传感器融合和 3D 标注，适合自动驾驶等生产级应用 |
 
 ## 轻量级/嵌入式工具
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| Universal Data Tool | [github.com/UniversalDataTool/universal-data-tool](https://github.com/UniversalDataTool/universal-data-tool) | 2k+ stars / 200+ forks | MIT | JavaScript, React | CV, NLP, Text, Image | 通用数据标注工具，支持多种数据类型，提供 Web 界面和桌面应用，易于协作 |
-| Annotorious | [github.com/annotorious/annotorious](https://github.com/annotorious/annotorious) | 1.5k+ stars / 200+ forks | BSD-3-Clause | JavaScript | Image, Web | JavaScript 图像标注库，只需几行代码即可为网页添加标注功能，轻量级且易于集成 |
-| Recogito | [github.com/recogito/recogito-js](https://github.com/recogito/recogito-js) | 800+ stars / 100+ forks | BSD-3-Clause | JavaScript | Text, Image | 文本和图像交互式标注 JavaScript 库，支持协作标注，适合数字人文项目 |
-| Pigeon | [github.com/agermanidis/pigeon](https://github.com/agermanidis/pigeon) | 700+ stars / 100+ forks | Apache-2.0 | Python, Jupyter | Jupyter, Text, Image | Jupyter Notebook 标注小部件，快速标注数据集，支持文本、图像和回归任务 |
-| Universal Data Tool | [github.com/UniversalDataTool/universal-data-tool](https://github.com/UniversalDataTool/universal-data-tool) | 2k+ stars / 200+ forks | MIT | JavaScript, React | CV, NLP, Text, Image | 通用数据标注工具，支持多种数据类型，提供 Web 界面和桌面应用，易于协作 |
-| Pigeon | [github.com/agermanidis/pigeon](https://github.com/agermanidis/pigeon) | 700+ stars / 100+ forks | Apache-2.0 | Python, Jupyter | Jupyter, Text, Image | Jupyter Notebook 标注小部件，快速标注数据集，支持文本、图像和回归任务，100% 本地运行 |
+| Universal Data Tool | [GitHub](https://github.com/UniversalDataTool/universal-data-tool) | 2k+ stars / 200+ forks | MIT | JavaScript, React | CV, NLP, Text, Image | 通用数据标注工具，支持多种数据类型，提供 Web 界面和桌面应用，易于协作 |
+| Annotorious | [GitHub](https://github.com/annotorious/annotorious) | 1.5k+ stars / 200+ forks | BSD-3-Clause | JavaScript | Image, Web | JavaScript 图像标注库，只需几行代码即可为网页添加标注功能，轻量级且易于集成 |
+| Recogito | [GitHub](https://github.com/recogito/recogito-js) | 800+ stars / 100+ forks | BSD-3-Clause | JavaScript | Text, Image | 文本和图像交互式标注 JavaScript 库，支持协作标注，适合数字人文项目 |
+| Pigeon | [GitHub](https://github.com/agermanidis/pigeon) | 700+ stars / 100+ forks | Apache-2.0 | Python, Jupyter | Jupyter, Text, Image | Jupyter Notebook 标注小部件，快速标注数据集，支持文本、图像和回归任务 |
+| Universal Data Tool | [GitHub](https://github.com/UniversalDataTool/universal-data-tool) | 2k+ stars / 200+ forks | MIT | JavaScript, React | CV, NLP, Text, Image | 通用数据标注工具，支持多种数据类型，提供 Web 界面和桌面应用，易于协作 |
+| Pigeon | [GitHub](https://github.com/agermanidis/pigeon) | 700+ stars / 100+ forks | Apache-2.0 | Python, Jupyter | Jupyter, Text, Image | Jupyter Notebook 标注小部件，快速标注数据集，支持文本、图像和回归任务，100% 本地运行 |
 | ipyannotations | [pypi.org/project/ipyannotations](https://pypi.org/project/ipyannotations) | 200+ stars / 30+ forks | MIT | Python, Jupyter | Jupyter, Image | Jupyter 富标注库，专为图像数据设计，提供交互式标注界面 |
 
 ## 商业平台（支持自托管）
@@ -138,8 +138,8 @@
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| Audino | [github.com/midas-research/audino](https://github.com/midas-research/audino) | 600+ stars / 80+ forks | MIT | Python, React | Audio, Speech | 开源语音和音频标注工具，支持 ASR 数据标注、说话人识别、音频分类等，提供 Web 界面和协作功能 |
-| Montreal Forced Aligner | [github.com/MontrealCorpusTools/Montreal-Forced-Aligner](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) | 1.1k+ stars / 200+ forks | MIT | Python | Audio, Speech | 强制对齐工具，用于将语音与文本对齐，生成音素级标注，广泛用于语音数据集准备 |
+| Audino | [GitHub](https://github.com/midas-research/audino) | 600+ stars / 80+ forks | MIT | Python, React | Audio, Speech | 开源语音和音频标注工具，支持 ASR 数据标注、说话人识别、音频分类等，提供 Web 界面和协作功能 |
+| Montreal Forced Aligner | [GitHub](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) | 1.1k+ stars / 200+ forks | MIT | Python | Audio, Speech | 强制对齐工具，用于将语音与文本对齐，生成音素级标注，广泛用于语音数据集准备 |
 | ELAN | [GitHub](https://github.com/liepa-project/elan) | 专业软件 | GPL-3.0 | Java | Audio, Video | 专业语言标注工具，支持多层标注，适用于语音、手语、对话等复杂标注，输出多种格式 |
 | Praat | [praat.org](https://www.fon.hum.uva.nl/praat/) | 专业软件 | GPL | C++ | Audio, Speech | 语音学分析软件，可用于手工标注音段、音高、共振峰等，功能强大，学术界广泛使用 |
 
@@ -147,8 +147,8 @@
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| RoboSat | [github.com/mapbox/robosat](https://github.com/mapbox/robosat) | 2k+ stars / 400+ forks | MIT | Python, PyTorch | Remote Sensing, Image | 遥感图像语义分割工具，包含数据准备、训练和评估，支持从 OpenStreetMap 生成标注 |
-| label-maker | [github.com/developmentseed/label-maker](https://github.com/developmentseed/label-maker) | 400+ stars / 80+ forks | MIT | Python | Remote Sensing, Image | 从卫星图像和 OpenStreetMap 数据生成训练标签，用于深度学习模型 |
+| RoboSat | [GitHub](https://github.com/mapbox/robosat) | 2k+ stars / 400+ forks | MIT | Python, PyTorch | Remote Sensing, Image | 遥感图像语义分割工具，包含数据准备、训练和评估，支持从 OpenStreetMap 生成标注 |
+| label-maker | [GitHub](https://github.com/developmentseed/label-maker) | 400+ stars / 80+ forks | MIT | Python | Remote Sensing, Image | 从卫星图像和 OpenStreetMap 数据生成训练标签，用于深度学习模型 |
 | geojson.io | [geojson.io](https://geojson.io) | 开源项目 | MIT | JavaScript | Geospatial | 在线 GeoJSON 编辑器，可手工标注地理特征（点、线、面），导出标准 GeoJSON 格式 |
 | QGIS | [qgis.org](https://qgis.org) | 开源软件 | GPL | C++, Python | Geospatial, Image | 专业 GIS 软件，支持通过插件或内置工具进行地理数据标注，适合复杂地理标注任务 |
 
@@ -173,7 +173,7 @@
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| OpenRefine | [github.com/OpenRefine/OpenRefine](https://github.com/OpenRefine/OpenRefine) | 9k+ stars / 1.5k+ forks | BSD-3-Clause | Java | Tabular Data | 数据清洗和转换工具，可手工标注数据质量问题、分类等，适用于表格数据预处理 |
+| OpenRefine | [GitHub](https://github.com/OpenRefine/OpenRefine) | 9k+ stars / 1.5k+ forks | BSD-3-Clause | Java | Tabular Data | 数据清洗和转换工具，可手工标注数据质量问题、分类等，适用于表格数据预处理 |
 | Pandas + Jupyter | [pandas.pydata.org](https://pandas.pydata.org) | 开源库 | BSD | Python | Tabular Data | 通过编写脚本可进行表格数据标注，配合 Jupyter 小部件（如 Pigeon）可快速标注 |
 | Label Studio (表格模板) | 详见[综合类](#综合类标注工具) | - | Apache-2.0 | - | Tabular Data | 支持 CSV/Excel 数据标注，可添加标签列，适用于分类、回归等任务 |
 
@@ -189,8 +189,8 @@
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| Cleanlab | [github.com/cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) | 9k+ stars / 700+ forks | AGPL-3.0 | Python | Data Quality | 数据中心 AI 包，专注于数据质量和标签清洗，适合处理混乱的真实世界数据 |
-| LabelConvert | [github.com/RapidAI/LabelConvert](https://github.com/RapidAI/LabelConvert) | 500+ stars / 100+ forks | Apache-2.0 | Python | Format Conversion | 数据集格式转换工具，支持 labelme、labelImg、YOLO、VOC、COCO 等格式互转 |
+| Cleanlab | [GitHub](https://github.com/cleanlab/cleanlab) | 9k+ stars / 700+ forks | AGPL-3.0 | Python | Data Quality | 数据中心 AI 包，专注于数据质量和标签清洗，适合处理混乱的真实世界数据 |
+| LabelConvert | [GitHub](https://github.com/RapidAI/LabelConvert) | 500+ stars / 100+ forks | Apache-2.0 | Python | Format Conversion | 数据集格式转换工具，支持 labelme、labelImg、YOLO、VOC、COCO 等格式互转 |
 | AURA | [arXiv:2602.02564](https://arxiv.org/abs/2602.02564) | 学术研究 | 研究项目 | Python, AI Agents | Automated Annotation | 代理式 AI 框架，通过协调多个 AI 智能体生成和验证标签，代表自动化高可靠性数据标注的前沿方向 |
 
 ---
