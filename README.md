@@ -163,9 +163,9 @@
 19. **医学影像分割**：MedSegLabel - 原生支持 DICOM/NIfTI，集成 MONAI 模型
 20. **医学影像通用**：V7 Darwin、Encord、NimbusImage 或 Cytomine - 支持 DICOM、病理切片等专业格式
 21. **数字病理学**：Cytomine - 专为大规模病理图像设计，支持 AI 辅助和 CBIR
-17. **生物影像研究**：NimbusImage - 支持 SAM 辅助分割和批量标注计算
-18. **macOS 用户**：RectLabel - 原生 macOS 应用
-19. **PDF 文档标注**：AutoDive+ - 支持多模态文档直接标注
+22. **生物影像研究**：NimbusImage - 支持 SAM 辅助分割和批量标注计算
+23. **macOS 用户**：RectLabel - 原生 macOS 应用
+24. **PDF 文档标注**：AutoDive+ - 支持多模态文档直接标注
 
 ### 按部署方式选择：
 
@@ -185,7 +185,7 @@
 
 ## 📊 统计概览
 
-- **总计工具数**：65+ 个
+- **总计工具数**：67 个
 - **开源工具**：43+ 个
 - **商业产品**：18+ 个
 - **学术研究项目**：3 个
