@@ -96,22 +96,22 @@
 
 ## 商业平台（支持自托管）
 
-| 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
-|------|------|-------------|---------|---------|---------|------|
-| V7 Darwin | [v7labs.com](https://www.v7labs.com) | 商业产品 | 专有 | Web, AI | CV, Video, Image, Medical | 企业级视觉 AI 平台，支持 SAM 3 自动分割，提供视频标注和医学影像（DICOM）标注，适合生产环境 |
-| Encord | [encord.com](https://encord.com) | 商业产品 | 专有 | Web, AI | CV, NLP, Multi-modal, 3D, LiDAR | AI 辅助数据标注平台，支持图像、视频、音频、文档、3D 和 LiDAR 数据，提供 HITL 工作流 |
-| SuperAnnotate | [superannotate.com](https://www.superannotate.com) | 商业产品 | 专有 | Web, AI | CV, NLP, Multi-modal | 端到端数据标注平台，支持主动学习和数据管理，提供质量控制和团队协作功能 |
-| Scale AI | [scale.com](https://scale.com) | 商业产品 | 专有 | Web, AI | CV, NLP, Multi-modal | 领先的 AI 数据平台，提供高质量标注服务和工具，支持大规模数据处理 |
-| Segments.ai | [segments.ai](https://segments.ai) | 商业产品 | 专有 | Web | CV, 2D, 3D, Point Cloud | 多传感器数据标注平台，支持 2D 图像和 3D 点云同步标注，适合机器人和自动驾驶（YC W21，网站有反爬虫保护） |
-| Labellerr | [labellerr.com](https://www.labellerr.com) | 商业产品 | 专有 | Web, AI | CV, NLP, Video | 数据标注平台，支持自托管，提供 AI 辅助标注，声称可减少 80% 标注时间 |
-| VisionRepo | [averroes.ai](https://averroes.ai) | 商业产品 | 专有 | Web | CV, Image, Video | 数据标注和视觉数据管理平台，支持 AI 辅助工作流和数据版本控制 |
-| Playment | [YC 公司页面](https://www.ycombinator.com/companies/playment) | 商业产品 | 专有 | Web | CV, Image, Video, Sensor | 全托管数据标注平台，专注于自动驾驶、无人机和地图等领域（2021年被 TELUS International 收购） |
-| Hive Data | [thehive.ai](https://thehive.ai) | 商业产品 | 专有 | Web, AI | CV, NLP, Multi-modal | AI 数据标注和内容审核平台，支持图像、视频和文本标注 |
-| Kili Technology | [kili-technology.com](https://kili-technology.com) | 商业产品 | 专有 | Web, AI | CV, NLP, Video, Geospatial | 企业级标注平台，支持本地部署，提供多模态标注、质量控制和协作功能。2026年1月更新：增强批量标注管理（提速60%）和节点编辑器，适合国防、医疗、农业监测等领域 |
-| Hasty (CloudFactory) | [cloudfactory.com/hasty](https://www.cloudfactory.com/platform/ai-cv-tool) | 商业产品 | 专有 | Web, AI | CV, Image, Video | AI 驱动的视觉标注工具，可自动化 90% 的质量控制任务，随使用越来越快 |
-| Dataloop | [dataloop.ai](https://dataloop.ai) | 商业产品 | 专有 | Web, AI | CV, NLP, Multi-modal | 端到端数据管理和标注平台，支持自托管，提供 MLOps 集成 |
-| Labelbox | [labelbox.com](https://labelbox.com) | 商业产品 | 专有 | Web, AI | CV, NLP, Multi-modal | 领先的训练数据平台，支持企业级部署，提供完整的数据管理和标注解决方案 |
-| Dataturks | [GitHub 归档](https://github.com/DataTurks) | 已停止维护 | Apache-2.0 | Java, Web | CV, NLP, Text, Image | 人机协作标注平台，支持图像、视频和文本标注（项目已归档，网站已下线） |
+| 名称 | 地址 | 部署方式 | 价格模式 | 技术栈 | 支持类型 | 说明 |
+|------|------|---------|---------|---------|---------|------|
+| V7 Darwin | [v7labs.com](https://www.v7labs.com) | SaaS + 私有化 | 按用户席位 + 企业定制 | Web, AI | CV, Video, Image, Medical | 企业级视觉 AI 平台，支持 SAM 3 自动分割，提供视频标注和医学影像（DICOM）标注，适合生产环境 |
+| Encord | [encord.com](https://encord.com) | SaaS + VPC + 私有化 | 按标注量 + 企业定制 | Web, AI | CV, NLP, Multi-modal, 3D, LiDAR | AI 辅助数据标注平台，支持图像、视频、音频、文档、3D 和 LiDAR 数据，提供 HITL 工作流 |
+| SuperAnnotate | [superannotate.com](https://www.superannotate.com) | SaaS + 私有化 | 按用户席位 + 标注量 | Web, AI | CV, NLP, Multi-modal | 端到端数据标注平台，支持主动学习和数据管理，提供质量控制和团队协作功能 |
+| Scale AI | [scale.com](https://scale.com) | SaaS + 托管服务 | 按标注量 + 服务费 | Web, AI | CV, NLP, Multi-modal | 领先的 AI 数据平台，提供高质量标注服务和工具，支持大规模数据处理 |
+| Segments.ai | [segments.ai](https://segments.ai) | SaaS | 免费 + 按用户席位 | Web | CV, 2D, 3D, Point Cloud | 多传感器数据标注平台，支持 2D 图像和 3D 点云同步标注，适合机器人和自动驾驶（YC W21） |
+| Labellerr | [labellerr.com](https://www.labellerr.com) | SaaS + 私有化 | 按标注量 + 企业定制 | Web, AI | CV, NLP, Video | 数据标注平台，支持自托管，提供 AI 辅助标注，声称可减少 80% 标注时间 |
+| VisionRepo | [averroes.ai](https://averroes.ai) | SaaS | 按项目定价 | Web | CV, Image, Video | 数据标注和视觉数据管理平台，支持 AI 辅助工作流和数据版本控制 |
+| Playment | [YC 公司页面](https://www.ycombinator.com/companies/playment) | 托管服务 | 按标注量 | Web | CV, Image, Video, Sensor | 全托管数据标注平台，专注于自动驾驶、无人机和地图等领域（2021年被 TELUS International 收购） |
+| Hive Data | [thehive.ai](https://thehive.ai) | SaaS + API | 按 API 调用 + 服务费 | Web, AI | CV, NLP, Multi-modal | AI 数据标注和内容审核平台，支持图像、视频和文本标注 |
+| Kili Technology | [kili-technology.com](https://kili-technology.com) | SaaS + 私有化 + VPC | 按用户席位 + 企业定制 | Web, AI | CV, NLP, Video, Geospatial | 企业级标注平台，支持本地部署，提供多模态标注、质量控制和协作功能。2026年1月更新：增强批量标注管理（提速60%）和节点编辑器 |
+| Hasty (CloudFactory) | [cloudfactory.com/hasty](https://www.cloudfactory.com/platform/ai-cv-tool) | SaaS | 按用户席位 | Web, AI | CV, Image, Video | AI 驱动的视觉标注工具，可自动化 90% 的质量控制任务，随使用越来越快 |
+| Dataloop | [dataloop.ai](https://dataloop.ai) | SaaS + 私有化 | 按用户席位 + MLOps 功能 | Web, AI | CV, NLP, Multi-modal | 端到端数据管理和标注平台，支持自托管，提供 MLOps 集成 |
+| Labelbox | [labelbox.com](https://labelbox.com) | SaaS + 私有化 + VPC | 按用户席位 + 企业定制 | Web, AI | CV, NLP, Multi-modal | 领先的训练数据平台，支持企业级部署，提供完整的数据管理和标注解决方案 |
+| Dataturks | [GitHub 归档](https://github.com/DataTurks) | 已停止维护 | 曾免费开源 | Java, Web | CV, NLP, Text, Image | 人机协作标注平台，支持图像、视频和文本标注（项目已归档，网站已下线） |
 
 ## 医学影像专用工具
 
@@ -180,6 +180,57 @@
 - **个人/小团队**：Labelme, LabelImg, makesense.ai, Pigeon, Yolo_mark, RectLabel
 - **中型团队**：doccano, labelCloud, CVAT, Universal Data Tool, COCO Annotator, Sloth
 - **企业级**：Label Studio, CVAT (企业版), V7 Darwin, Encord, Kili Technology, Ango Hub, SuperAnnotate, Scale AI, Kognic
+
+---
+
+## 🔍 热门工具对比矩阵
+
+### 综合类标注平台对比
+
+| 工具 | 易用性 | 功能丰富度 | AI 辅助 | 协作功能 | 输出格式 | 部署方式 | 适合场景 |
+|------|--------|-----------|---------|---------|---------|---------|---------|
+| **Label Studio** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 多格式 | 云端+自托管 | 企业级多模态 |
+| **CVAT** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | COCO/YOLO/VOC | 云端+自托管 | CV 专业团队 |
+| **Labelme** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | JSON | 本地 | 个人快速标注 |
+| **LabelImg** | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐ | ⭐ | VOC/YOLO | 本地 | YOLO 训练 |
+| **Supervisely** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 多格式 | 云端+私有化 | 企业级 CV+点云 |
+
+### NLP 专用工具对比
+
+| 工具 | 易用性 | 功能丰富度 | AI 辅助 | 协作功能 | 输出格式 | 部署方式 | 适合场景 |
+|------|--------|-----------|---------|---------|---------|---------|---------|
+| **doccano** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | JSONL/CoNLL | 云端+自托管 | 通用 NLP 任务 |
+| **OpenAssistant Annotator** | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | OpenAssistant/UltraChat | 自托管 | RLHF 对齐 |
+| **brat** | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | Standoff | 自托管 | 学术研究 |
+| **Argilla** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | HF Datasets | 云端+自托管 | LLM 数据质量 |
+| **Prodigy** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | spaCy/JSON | 本地 | 主动学习 |
+
+### 医学影像工具对比
+
+| 工具 | 易用性 | 功能丰富度 | AI 辅助 | 协作功能 | 输出格式 | 部署方式 | 适合场景 |
+|------|--------|-----------|---------|---------|---------|---------|---------|
+| **MedSegLabel** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | NIfTI/DICOM | 本地 | 医学分割+MONAI |
+| **Cytomine** | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 多格式 | 自托管 | 数字病理学 |
+| **NimbusImage** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | 多格式 | 云端 | 生物影像研究 |
+| **V7 Darwin** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | DICOM/NIfTI | 云端+私有化 | 企业级医学 AI |
+| **Encord** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 多格式 | 云端+VPC | 多模态医学 |
+
+### 3D/点云工具对比
+
+| 工具 | 易用性 | 功能丰富度 | AI 辅助 | 协作功能 | 输出格式 | 部署方式 | 适合场景 |
+|------|--------|-----------|---------|---------|---------|---------|---------|
+| **labelCloud** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐ | PCD/PLY | 本地 | 个人点云标注 |
+| **SUSTechPOINTS** | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | KITTI | 本地 | 自动驾驶研究 |
+| **SceneXplain Studio** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | SceneX/NeRF | 云端+本地 | 3D 场景+NeRF |
+| **Kognic Platform** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 多格式 | 云端 | 企业级自动驾驶 |
+| **Supervisely Point Cloud** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | 多格式 | 云端+自托管 | 多传感器融合 |
+
+**评分说明**：
+- ⭐⭐⭐⭐⭐ 优秀
+- ⭐⭐⭐⭐ 良好
+- ⭐⭐⭐ 中等
+- ⭐⭐ 基础
+- ⭐ 有限
 
 ---
 
