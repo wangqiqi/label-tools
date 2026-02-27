@@ -58,7 +58,7 @@
 |------|------|-------------|---------|---------|---------|------|
 | doccano | [github.com/doccano/doccano](https://github.com/doccano/doccano) | 9.5k+ stars / 1.8k+ forks | MIT | Python, Django, Vue.js | NLP, Text | 开源文本标注工具，专为 NLP 任务设计，支持序列标注、文本分类、序列到序列任务等 |
 | brat | [github.com/nlplab/brat](https://github.com/nlplab/brat) | 1.8k+ stars / 500+ forks | MIT | Python, JavaScript | NLP, Text | 快速标注工具，基于 Web 的文本标注、可视化和编辑工具，专为结构化标注设计，支持 NLP 辅助 |
-| OpenAssistant Annotator | [github.com/LAION-AI/openassistant-annotator](https://github.com/LAION-AI/openassistant-annotator) | 1.2k+ stars / 180+ forks | Apache-2.0 | Python, FastAPI, SvelteKit | NLP, LLM, RLHF | 专为 RLHF/DPO/ORPO 对齐数据设计，支持多轮对话质量打分、llm-judge 预评、导出 ultrachat/openassistant 格式（2026-02-19 v0.4.0） |
+| Argilla | [github.com/argilla-io/argilla](https://github.com/argilla-io/argilla) | 3.5k+ stars / 350+ forks | Apache-2.0 | Python, FastAPI, Vue.js | NLP, Text, LLM, RLHF | 面向 LLM 和 NLP 的协作标注平台，支持 RLHF 数据标注、数据质量监控和模型评估 |
 | WebAnno | [github.com/webanno/webanno](https://github.com/webanno/webanno) | 800+ stars / 200+ forks | Apache-2.0 | Java, Spring | NLP, Text | 通用 Web 文本标注工具，支持多种语言学标注，现已迁移到 INCEpTION 项目 |
 | ActiveTigger | [github.com/emilienschultz/activetigger](https://github.com/emilienschultz/activetigger) | 开源项目 | 开源 | Python, BERT | NLP, Text | 为计算社会科学研究设计的轻量级文本标注工具，集成微调模型和主动学习，支持 LLM 即服务进行提示式标注 |
 | tagtog | [tagtog 文档](https://docs.tagtog.com) | 商业产品 | 专有 | Web | NLP, Text, NER | Web 文本标注工具，专注于语义标注和 NER，支持协作和自动标注（官网访问受限） |
@@ -72,7 +72,7 @@
 |------|------|-------------|---------|---------|---------|------|
 | labelCloud | [github.com/ch-sa/labelCloud](https://github.com/ch-sa/labelCloud) | 800+ stars / 150+ forks | GPLv3 | Python, Qt | Point Cloud, 3D | 轻量级 3D 点云边界框标注工具，支持多种点云格式，界面友好 |
 | SUSTechPOINTS | [github.com/naurril/SUSTechPOINTS](https://github.com/naurril/SUSTechPOINTS) | 500+ stars / 120+ forks | MIT | Python, Qt | Point Cloud, 3D | 专为自动驾驶设计的 3D 点云标注平台，支持激光雷达数据标注 |
-| SceneXplain Studio | [github.com/scenexai/studio](https://github.com/scenexai/studio) | 860+ stars / 110+ forks | MIT | TypeScript, Three.js, React | 3D Scene, 2D+3D | 同步标注 3D 场景与所有相机视角，支持 GLB/USDZ，输出 pose-aware 标注格式，适合 NeRF/具身智能（2026-02-10 v1.1） |
+| Scalabel | [github.com/scalabel/scalabel](https://github.com/scalabel/scalabel) | 543+ stars / 112+ forks | Apache-2.0 | TypeScript, React | CV, 2D, 3D | 多功能 Web 标注工具，支持 2D 和 3D 数据标注，BDD100K 数据集使用此工具标注 |
 | 3D Annotation Tool | [github.com/strayrobots/3d-annotation-tool](https://github.com/strayrobots/3d-annotation-tool) | 300+ stars / 60+ forks | MIT | Python, Three.js | Point Cloud, 3D | 图形化 3D 点云和数据标注工具，支持多种 3D 数据格式 |
 | Supervisely Point Cloud | [github.com/supervisely-ecosystem/pointcloud-labeling-tool](https://github.com/supervisely-ecosystem/pointcloud-labeling-tool) | 200+ stars / 40+ forks | MIT | Python, Web | Point Cloud, 3D, Video | 支持激光雷达/雷达传感器的综合 3D 场景标注，带 AI 目标跟踪和点云分割功能 |
 | Kognic Platform | [kognic.com](https://www.kognic.com) | 商业产品 | 专有 | Web, AI | Point Cloud, 3D, Semantic Segmentation | 专注于自动驾驶和机器人的企业级平台，支持 3D 语义/实例分割质量分析和程序化检查（2026年1月更新） |
@@ -96,8 +96,8 @@
 | Annotorious | [github.com/annotorious/annotorious](https://github.com/annotorious/annotorious) | 1.5k+ stars / 200+ forks | BSD-3-Clause | JavaScript | Image, Web | JavaScript 图像标注库，只需几行代码即可为网页添加标注功能，轻量级且易于集成 |
 | Recogito | [github.com/recogito/recogito-js](https://github.com/recogito/recogito-js) | 800+ stars / 100+ forks | BSD-3-Clause | JavaScript | Text, Image | 文本和图像交互式标注 JavaScript 库，支持协作标注，适合数字人文项目 |
 | Pigeon | [github.com/agermanidis/pigeon](https://github.com/agermanidis/pigeon) | 700+ stars / 100+ forks | Apache-2.0 | Python, Jupyter | Jupyter, Text, Image | Jupyter Notebook 标注小部件，快速标注数据集，支持文本、图像和回归任务 |
-| cli-label | [github.com/roboflow/cli-label](https://github.com/roboflow/cli-label) | 420+ stars / 75+ forks | MIT | Rust, TUI | CLI, Image, Text, Audio | 终端原生标注器，键盘驱动（j/k翻页），100% 离线，输出 JSONL/YOLO/spaCy 格式，适合 MLOps 流水线和边缘设备 |
-| LocalAnnotate | [github.com/privacyai/localannotate](https://github.com/privacyai/localannotate) | 310+ stars / 42+ forks | AGPL-3.0 | WebAssembly, Rust | Privacy, Image, Text, Audio | 100% 客户端运行（WebAssembly），数据永不离开浏览器，支持本地 ONNX/TFLite 模型预标注（2026-02-05 v0.5.0） |
+| Universal Data Tool | [github.com/UniversalDataTool/universal-data-tool](https://github.com/UniversalDataTool/universal-data-tool) | 2k+ stars / 200+ forks | MIT | JavaScript, React | CV, NLP, Text, Image | 通用数据标注工具，支持多种数据类型，提供 Web 界面和桌面应用，易于协作 |
+| Pigeon | [github.com/agermanidis/pigeon](https://github.com/agermanidis/pigeon) | 700+ stars / 100+ forks | Apache-2.0 | Python, Jupyter | Jupyter, Text, Image | Jupyter Notebook 标注小部件，快速标注数据集，支持文本、图像和回归任务，100% 本地运行 |
 | ipyannotations | [pypi.org/project/ipyannotations](https://pypi.org/project/ipyannotations) | 200+ stars / 30+ forks | MIT | Python, Jupyter | Jupyter, Image | Jupyter 富标注库，专为图像数据设计，提供交互式标注界面 |
 
 ## 商业平台（支持自托管）
@@ -108,7 +108,7 @@
 | Encord | [encord.com](https://encord.com) | SaaS + VPC + 私有化 | 按标注量 + 企业定制 | Web, AI | CV, NLP, Multi-modal, 3D, LiDAR | AI 辅助数据标注平台，支持图像、视频、音频、文档、3D 和 LiDAR 数据，提供 HITL 工作流 |
 | SuperAnnotate | [superannotate.com](https://www.superannotate.com) | SaaS + 私有化 | 按用户席位 + 标注量 | Web, AI | CV, NLP, Multi-modal | 端到端数据标注平台，支持主动学习和数据管理，提供质量控制和团队协作功能 |
 | Scale AI | [scale.com](https://scale.com) | SaaS + 托管服务 | 按标注量 + 服务费 | Web, AI | CV, NLP, Multi-modal | 领先的 AI 数据平台，提供高质量标注服务和工具，支持大规模数据处理 |
-| Segments.ai | [segments.ai](https://segments.ai) | SaaS | 免费 + 按用户席位 | Web | CV, 2D, 3D, Point Cloud | 多传感器数据标注平台，支持 2D 图像和 3D 点云同步标注，适合机器人和自动驾驶（YC W21） |
+| Segments.ai | [segments.ai](https://segments.ai) / [文档](https://docs.segments.ai) | SaaS | 免费 + 按用户席位 | Web | CV, 2D, 3D, Point Cloud | 多传感器数据标注平台，支持 2D 图像和 3D 点云同步标注，适合机器人和自动驾驶（YC W21） |
 | Labellerr | [labellerr.com](https://www.labellerr.com) | SaaS + 私有化 | 按标注量 + 企业定制 | Web, AI | CV, NLP, Video | 数据标注平台，支持自托管，提供 AI 辅助标注，声称可减少 80% 标注时间 |
 | VisionRepo | [averroes.ai](https://averroes.ai) | SaaS | 按项目定价 | Web | CV, Image, Video | 数据标注和视觉数据管理平台，支持 AI 辅助工作流和数据版本控制 |
 | Playment | [YC 公司页面](https://www.ycombinator.com/companies/playment) | 托管服务 | 按标注量 | Web | CV, Image, Video, Sensor | 全托管数据标注平台，专注于自动驾驶、无人机和地图等领域（2021年被 TELUS International 收购） |
@@ -125,13 +125,13 @@
 |------|------|-------------|---------|---------|---------|------|
 | NimbusImage | [nimbusimage.com](https://docs.nimbusimage.com/new-features) | 商业产品 | 专有 | Web, AI | Medical Imaging, Biology | 面向科研的生物影像标注和分析平台，支持圆形/椭圆标注、合并多边形、SAM1/SAM2 辅助分割（2026年2月更新） |
 | Cytomine | [cytomine.org](https://cytomine.org) | 开源项目 | Apache-2.0 | Java, Groovy, JavaScript | Pathology, Whole-slide | 开源的大规模病理学图像协作标注平台，集成 AI 辅助细胞/区域标注和基于内容的图像检索（CBIR），适合数字病理学 |
-| MedSegLabel | [github.com/DeepRegNet/medseglabel](https://github.com/DeepRegNet/medseglabel) | 290+ stars / 68+ forks | Apache-2.0 | Python, PyQt6, ITK, MONAI | Medical Segmentation, DICOM | 专为医学分割优化，支持 DICOM/NIfTI，带窗宽窗位调节、MPR 重建，内置 MONAI 模型（nnUNet/SwinUNETR）一键预标注（2026-01-31 v1.2.0） |
+| 3D Slicer | [slicer.org](https://www.slicer.org) | 开源软件 | BSD | C++, Python, Qt | Medical Segmentation, DICOM, 3D | 专业医学影像分析平台，支持 DICOM/NIfTI，提供分割、配准、可视化等功能，广泛用于医学研究和临床应用 |
 
 ## 多模态标注平台
 
 | 名称 | 地址 | Star/Fork 数 | 开源协议 | 技术栈 | 支持类型 | 说明 |
 |------|------|-------------|---------|---------|---------|------|
-| AutoDive+ | [论文链接](https://dl.acm.org/doi/10.1145/3701716.3715167) | 学术研究 | 研究项目 | Python, AI | Multi-modal, PDF | 增强版多模态在线标注工具，支持 PDF 文档直接标注，通过主动学习提高效率，适合材料科学、生物合成等领域 |
+| AutoDive+ | [GitHub](https://github.com/autodive/autodive) | 学术研究 | 研究项目 | Python, AI | Multi-modal, PDF | 增强版多模态在线标注工具，支持 PDF 文档直接标注，通过主动学习提高效率，适合材料科学、生物合成等领域 |
 | Appen 多模态工具 | [appen.com](https://tw.appendata.com/blogs/multimodal-labeling-tool) | 商业产品 | 专有 | Web, AI | Multi-modal, Semantic | 专业多模态标注平台，支持语义层级的跨模态关联（如将文字描述关联到影像区域），适合医疗 AI、智能客服等场景 |
 
 ## 音频/语音专用工具
@@ -140,9 +140,9 @@
 |------|------|-------------|---------|---------|---------|------|
 | Audino | [github.com/midas-research/audino](https://github.com/midas-research/audino) | 600+ stars / 80+ forks | MIT | Python, React | Audio, Speech | 开源语音和音频标注工具，支持 ASR 数据标注、说话人识别、音频分类等，提供 Web 界面和协作功能 |
 | Montreal Forced Aligner | [github.com/MontrealCorpusTools/Montreal-Forced-Aligner](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) | 1.1k+ stars / 200+ forks | MIT | Python | Audio, Speech | 强制对齐工具，用于将语音与文本对齐，生成音素级标注，广泛用于语音数据集准备 |
-| ELAN | [archive.mpi.nl/tla/elan](https://archive.mpi.nl/tla/elan) | 专业软件 | GPL-3.0 | Java | Audio, Video | 专业语言标注工具，支持多层标注，适用于语音、手语、对话等复杂标注，输出多种格式 |
+| ELAN | [archive.mpi.nl/tla/elan](https://archive.mpi.nl/tla/elan) / [GitHub](https://github.com/liepa-project/elan) | 专业软件 | GPL-3.0 | Java | Audio, Video | 专业语言标注工具，支持多层标注，适用于语音、手语、对话等复杂标注，输出多种格式 |
 | Praat | [praat.org](https://www.fon.hum.uva.nl/praat/) | 专业软件 | GPL | C++ | Audio, Speech | 语音学分析软件，可用于手工标注音段、音高、共振峰等，功能强大，学术界广泛使用 |
-| TranscriberAG | [github.com/transcriber-ag/transcriber-ag](https://github.com/transcriber-ag/transcriber-ag) | 200+ stars / 50+ forks | GPL | Python, Tcl/Tk | Audio, Speech | 语音转写标注工具，支持分段、说话人标注，适用于语音识别数据准备 |
+| Transcriber | [trans.sourceforge.net](https://trans.sourceforge.net) | 开源软件 | GPL | Tcl/Tk | Audio, Speech | 语音转写标注工具，支持分段、说话人标注，适用于语音识别数据准备 |
 
 ## 遥感与地理信息专用工具
 
@@ -168,7 +168,7 @@
 |------|------|-------------|---------|---------|---------|------|
 | Gephi | [gephi.org](https://gephi.org) | 开源软件 | GPL | Java | Graph | 开源网络分析和可视化软件，可手工标注节点属性、社区划分，支持多种图格式 |
 | Cytoscape | [cytoscape.org](https://cytoscape.org) | 开源软件 | LGPL | Java | Graph, Biological | 主要用于生物网络可视化与标注，支持节点和边的属性标注，适合分子相互作用网络等 |
-| graph-annotation-tool | [github.com/jackon/graph-annotation-tool](https://github.com/jackon/graph-annotation-tool) | 200+ stars / 40+ forks | MIT | Python, JavaScript | Graph | 基于 Web 的图标注工具，支持节点分类、边关系标注，输出标准图格式 |
+| yEd Graph Editor | [yworks.com/yed](https://www.yworks.com/products/yed) | 免费软件 | 专有 | Java | Graph | 专业图形编辑器，支持节点和边的属性标注，可导出多种格式，适合图结构数据可视化和标注 |
 
 ## 表格数据处理专用工具
 
@@ -204,34 +204,34 @@
 2. **计算机视觉**：CVAT 或 V7 Darwin - 功能最强大，社区活跃
 3. **快速原型**：makesense.ai 或 Labelme - 轻量级，易上手
 4. **NLP 任务**：doccano 或 brat - 专为文本标注优化
-5. **RLHF/人类偏好对齐**：OpenAssistant Annotator - 专为 RLHF/DPO 设计，支持多轮对话质量打分
+5. **RLHF/人类偏好对齐**：Argilla - 支持 RLHF 数据标注、数据质量监控和模型评估
 6. **计算社会科学**：ActiveTigger - 集成主动学习和 LLM，适合学术研究
 7. **点云标注**：labelCloud - 界面友好，支持多种格式
-8. **3D 场景+多视角联合**：SceneXplain Studio - 同步标注 3D 场景与所有相机视角，适合 NeRF/具身智能
+8. **3D 场景+多视角联合**：Scalabel - 支持 2D 和 3D 数据标注，BDD100K 数据集使用
 9. **自动驾驶多传感器**：Kognic Platform 或 SUSTechPOINTS - 专为激光雷达和 3D 分割设计
 10. **LLM 数据准备**：LabelLLM 或 Argilla - 专为大模型优化
 11. **视频标注**：Tator、CVAT 或 V7 Darwin - 支持大规模视频处理
 12. **学术研究**：INCEpTION 或 brat - 语义标注和知识管理
-13. **Jupyter 环境**：Pigeon 或 ipyannotations - 直接在 Notebook 中标注
-14. **命令行/MLOps 流水线**：cli-label - 终端原生，零依赖，适合 CI/CD 集成
-15. **隐私敏感/数据不出域**：LocalAnnotate - WebAssembly 实现，100% 客户端运行
+13. **Jupyter 环境**：Pigeon 或 ipyannotations - 直接在 Notebook 中标注，100% 本地运行
+14. **命令行/MLOps 流水线**：Universal Data Tool - 支持多种数据类型，易于集成
+15. **隐私敏感/数据不出域**：Pigeon - Jupyter 本地运行，数据不离开本地环境
 16. **Web 集成**：Annotorious 或 Recogito - 轻量级 JavaScript 库
 17. **YOLO 训练**：Yolo_mark 或 LabelImg - 专为 YOLO 格式优化
 18. **COCO 格式**：COCO Annotator - 输出标准 COCO 格式
-19. **医学影像分割**：MedSegLabel - 原生支持 DICOM/NIfTI，集成 MONAI 模型
+19. **医学影像分割**：3D Slicer - 专业医学影像分析平台，支持 DICOM/NIfTI
 20. **医学影像通用**：V7 Darwin、Encord、NimbusImage 或 Cytomine - 支持 DICOM、病理切片等专业格式
 21. **数字病理学**：Cytomine - 专为大规模病理图像设计，支持 AI 辅助和 CBIR
 22. **生物影像研究**：NimbusImage - 支持 SAM 辅助分割和批量标注计算
 23. **音频/语音标注**：Audino - 开源语音标注工具，支持 ASR 数据标注、说话人识别
 24. **语音对齐**：Montreal Forced Aligner - 强制对齐工具，生成音素级标注
-25. **专业语言标注**：ELAN - 多层标注，适用于语音、手语、对话等复杂标注
-26. **语音学分析**：Praat - 手工标注音段、音高、共振峰，学术界广泛使用
+25. **语音学分析**：Praat - 手工标注音段、音高、共振峰，学术界广泛使用
+26. **语音转写**：Transcriber - 支持分段、说话人标注，适用于语音识别数据准备
 27. **遥感影像标注**：RoboSat - 遥感图像语义分割，支持从 OpenStreetMap 生成标注
 28. **卫星图像标注**：label-maker - 从卫星图像和 OSM 数据生成训练标签
 29. **地理特征标注**：geojson.io - 在线 GeoJSON 编辑器，手工标注地理特征
 30. **GIS 专业标注**：QGIS - 专业 GIS 软件，支持复杂地理标注任务
 31. **工业检测**：AnyLabeling/X-AnyLabeling/CVAT - 集成 AI 模型，支持缺陷标注
-32. **图结构标注**：Gephi/Cytoscape - 网络分析和可视化，支持节点属性标注
+32. **图结构标注**：Gephi/Cytoscape/yEd - 网络分析和可视化，支持节点属性标注
 33. **表格数据标注**：OpenRefine - 数据清洗和转换，支持数据质量标注
 34. **代码标注**：Label Studio/Argilla/doccano - 支持代码高亮和序列标注
 35. **macOS 用户**：RectLabel - 原生 macOS 应用
@@ -270,16 +270,16 @@
 | 工具 | 易用性 | 功能丰富度 | AI 辅助 | 协作功能 | 输出格式 | 部署方式 | 适合场景 |
 |------|--------|-----------|---------|---------|---------|---------|---------|
 | **doccano** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | JSONL/CoNLL | 云端+自托管 | 通用 NLP 任务 |
-| **OpenAssistant Annotator** | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | OpenAssistant/UltraChat | 自托管 | RLHF 对齐 |
+| **Argilla** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | HF Datasets | 云端+自托管 | LLM/RLHF 数据质量 |
 | **brat** | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | Standoff | 自托管 | 学术研究 |
-| **Argilla** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | HF Datasets | 云端+自托管 | LLM 数据质量 |
+| **LabelLLM** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | JSON | 云端+自托管 | LLM 数据标注 |
 | **Prodigy** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | spaCy/JSON | 本地 | 主动学习 |
 
 ### 医学影像工具对比
 
 | 工具 | 易用性 | 功能丰富度 | AI 辅助 | 协作功能 | 输出格式 | 部署方式 | 适合场景 |
 |------|--------|-----------|---------|---------|---------|---------|---------|
-| **MedSegLabel** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | NIfTI/DICOM | 本地 | 医学分割+MONAI |
+| **3D Slicer** | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ | NIfTI/DICOM | 本地 | 医学影像分析 |
 | **Cytomine** | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 多格式 | 自托管 | 数字病理学 |
 | **NimbusImage** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | 多格式 | 云端 | 生物影像研究 |
 | **V7 Darwin** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | DICOM/NIfTI | 云端+私有化 | 企业级医学 AI |
@@ -291,7 +291,7 @@
 |------|--------|-----------|---------|---------|---------|---------|---------|
 | **labelCloud** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐ | PCD/PLY | 本地 | 个人点云标注 |
 | **SUSTechPOINTS** | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | KITTI | 本地 | 自动驾驶研究 |
-| **SceneXplain Studio** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | SceneX/NeRF | 云端+本地 | 3D 场景+NeRF |
+| **Scalabel** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | COCO/KITTI | 云端+本地 | 2D+3D 统一标注 |
 | **Kognic Platform** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 多格式 | 云端 | 企业级自动驾驶 |
 | **Supervisely Point Cloud** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | 多格式 | 云端+自托管 | 多传感器融合 |
 
@@ -333,7 +333,7 @@
 
 ### 2. RLHF 与人类偏好对齐标注的专业化
 
-随着大语言模型的发展，RLHF（Reinforcement Learning from Human Feedback）标注需求激增。OpenAssistant Annotator 等专业工具的出现，标志着从通用文本标注向"人类偏好对齐"专业标注的转变，支持多轮对话质量打分、helpfulness/harmlessness 评估等细粒度标注。
+随着大语言模型的发展，RLHF（Reinforcement Learning from Human Feedback）标注需求激增。Argilla 等专业工具的出现，标志着从通用文本标注向"人类偏好对齐"专业标注的转变，支持多轮对话质量打分、helpfulness/harmlessness 评估等细粒度标注。
 
 ### 3. 多模态标注的深度发展
 
@@ -341,7 +341,7 @@
 
 ### 4. 3D 场景理解与具身智能标注
 
-SceneXplain Studio 等工具的出现，解决了传统点云标注与 2D 视图割裂的问题。通过同步标注 3D 场景与所有相机视角，输出 pose-aware 标注格式，为 NeRF、3D Gaussian Splatting、具身智能等前沿领域提供基础设施。
+Scalabel 等工具的出现，解决了传统点云标注与 2D 视图割裂的问题。通过支持 2D 和 3D 数据的统一标注，为自动驾驶、机器人等前沿领域提供基础设施。
 
 ### 5. 主动学习与 AI 辅助标注的普及
 
@@ -349,20 +349,20 @@ SceneXplain Studio 等工具的出现，解决了传统点云标注与 2D 视图
 
 ### 6. 隐私优先与边缘计算标注
 
-随着数据隐私法规（GDPR、HIPAA）的严格化，LocalAnnotate（WebAssembly 客户端标注）和 cli-label（边缘设备命令行标注）等工具应运而生，实现"数据不出域"的标注流程，满足金融、医疗、国防等强合规场景需求。
+随着数据隐私法规（GDPR、HIPAA）的严格化，Pigeon（Jupyter 本地运行）等工具应运而生，实现"数据不出域"的标注流程，满足金融、医疗、国防等强合规场景需求。
 
 ### 7. 垂直领域专业化
 
 针对特定领域的专业标注工具不断涌现：
-- **医学影像**：MedSegLabel（MONAI 集成）、Cytomine（数字病理学）、NimbusImage（生物影像）
-- **自动驾驶**：Kognic（3D 语义分割）、SceneXplain Studio（多传感器融合）
+- **医学影像**：3D Slicer（医学影像分析）、Cytomine（数字病理学）、NimbusImage（生物影像）
+- **自动驾驶**：Kognic（3D 语义分割）、Scalabel（2D+3D 统一标注）
 - **音频/语音**：Audino（ASR 数据标注）、Montreal Forced Aligner（强制对齐）、ELAN（多层标注）、Praat（语音学分析）
 - **遥感与地理**：RoboSat（遥感分割）、label-maker（卫星图像）、QGIS（GIS 专业）
 - **工业检测**：AnyLabeling/X-AnyLabeling（AI 辅助缺陷标注）
 - **计算社会科学**：ActiveTigger（LLM 辅助）
-- **图结构**：Gephi（网络分析）、Cytoscape（生物网络）
+- **图结构**：Gephi（网络分析）、Cytoscape（生物网络）、yEd（图形编辑）
 - **表格数据**：OpenRefine（数据清洗）
-- **MLOps 集成**：cli-label（命令行原生）
+- **MLOps 集成**：Universal Data Tool（多数据类型支持）
 
 ### 8. 音频标注走向细粒度与自动化
 
@@ -375,6 +375,8 @@ RoboSat 等工具的出现，标志着传统 GIS 软件与深度学习数据准�
 ### 10. 工业检测标注强调 AI 辅助与实时性
 
 在工业 4.0 背景下，标注工具不仅需要支持缺陷类型标注，还需与在线检测系统联动，AnyLabeling 等集成 Segment Anything 的工具大幅提升了标注效率。
+
+### 11. 质量控制与程序化检查
 
 ### 11. 质量控制与程序化检查
 
